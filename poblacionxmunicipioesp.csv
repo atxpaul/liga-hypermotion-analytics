@@ -1,0 +1,1317 @@
+N.º,Nombre,"Población
+(1 de enero de 2023)",Provincia,Comunidad autónoma
+1,Madrid,3 332 035,Madrid,Comunidad de Madrid
+2,Barcelona,1 660 122,Barcelona,Cataluña
+3,Valencia,807 693,Valencia,Comunidad Valenciana
+4,Sevilla,684 025,Sevilla,Andalucía
+5,Zaragoza,682 513,Zaragoza,Aragón
+6,Málaga,586 384,Málaga,Andalucía
+7,Murcia,469 177,Región de Murcia,
+8,Palma de Mallorca,423 350,Islas Baleares,
+9,Las Palmas de Gran Canaria,378 027,Las Palmas,Canarias
+10,Alicante,349 282,Alicante,Comunidad Valenciana
+11,Bilbao,346 096,Vizcaya,País Vasco
+12,Córdoba,323 763,Córdoba,Andalucía
+13,Valladolid,297 459,Valladolid,Castilla y León
+14,Vigo,293 652,Pontevedra,Galicia
+15,Hospitalet de Llobregat,274 455,Barcelona,Cataluña
+16,Gijón,268 313,Principado de Asturias,
+17,Vitoria,255 886,Álava,País Vasco
+18,A Coruña,247 376,A Coruña,Galicia
+19,Elche,238 293,Alicante,Comunidad Valenciana
+20,Granada,230 595,Granada,Andalucía
+21,Badalona,225 957,Barcelona,Cataluña
+22,Tarrasa,225 277,Barcelona,Cataluña
+23,Sabadell,218 300,Barcelona,Cataluña
+24,Cartagena,218 050,Región de Murcia,
+25,Oviedo,217 584,Principado de Asturias,
+26,Jerez de la Frontera,213 231,Cádiz,Andalucía
+27,Móstoles,211 265,Comunidad de Madrid,
+28,Tenerife,209 395,Santa Cruz de Tenerife,Canarias
+29,Pamplona,205 762,Navarra,
+30,Almería,200 578,Almería,Andalucía
+31,Alcalá de Henares,199 184,Comunidad de Madrid,
+32,Leganés,190 665,Comunidad de Madrid,
+33,San Sebastián,188 743,Guipúzcoa,País Vasco
+34,Fuenlabrada,188 736,Comunidad de Madrid,
+35,Getafe,185 899,Comunidad de Madrid,
+36,Castellon,176 238,Castellon,Comunidad Valenciana
+37,Burgos,174 451,Burgos,Castilla y León
+38,Albacete,173 206,Albacete,Castilla-La Mancha
+39,Santander,172 726,Cantabria,
+40,Alcorcón,171 772,Comunidad de Madrid,
+41,San Cristóbal de La Laguna,159 034,Santa Cruz de Tenerife,Canarias
+42,Marbella,156 295,Málaga,Andalucía
+43,Logroño,150 583,La Rioja,
+44,Badajoz,150 190,Badajoz,Extremadura
+45,Salamanca,143 954,Salamanca,Castilla y León
+46,Lérida,143 094,Lérida,Cataluña
+47,Huelva,142 532,Huelva,Andalucía
+48,Dos Hermanas,138 981,Sevilla,Andalucía
+49,Tarragona,138 262,Tarragona,Cataluña
+50,Torrejón de Ardoz,137 711,Comunidad de Madrid,
+51,Parla,133 004,Comunidad de Madrid,
+52,Mataró,129 870,Barcelona,Cataluña
+53,Algeciras,123 639,Cádiz,Andalucía
+54,León,121 281,León,Castilla y León
+55,Santa Coloma de Gramanet,119 862,Barcelona,Cataluña
+56,Alcobendas,119 416,Comunidad de Madrid,
+57,Jaén,111 888,Jaén,Andalucía
+58,Cádiz,111 811,Cádiz,Andalucía
+59,Reus,108 479,Tarragona,Cataluña
+60,Roquetas de Mar,106 510,Almería,Andalucía
+61,Gerona,104 320,Gerona,Cataluña
+62,Orense,104 250,Orense,Galicia
+63,Telde,102 478,Las Palmas,Canarias
+64,Baracaldo,101 229,Vizcaya,País Vasco
+65,Rivas-Vaciamadrid,100 275,Comunidad de Madrid,
+66,Santiago de Compostela,98 687,La Coruña,Galicia
+67,Lorca,98 447,Región de Murcia,
+68,Lugo,98 214,Lugo,Galicia
+69,Las Rozas de Madrid,98 086,Comunidad de Madrid,
+70,San Cugat del Vallés,97 530,Barcelona,Cataluña
+71,Cáceres,96 215,Cáceres,Extremadura
+72,San Fernando,93 927,Cádiz,Andalucía
+73,San Sebastián de los Reyes,92 734,Comunidad de Madrid,
+74,Mijas,91 691,Málaga,Andalucía
+75,Cornellá de Llobregat,90 303,Barcelona,Cataluña
+76,El Ejido,89 975,Almería,Andalucía
+77,El Puerto de Santa María,89 813,Cádiz,Andalucía
+78,Torrevieja,89 290,Alicante,Comunidad Valenciana
+79,Guadalajara,89 010,Guadalajara,Castilla-La Mancha
+80,Pozuelo de Alarcón,88 784,Comunidad de Madrid,
+81,Chiclana de la Frontera,88 709,Cádiz,Andalucía
+82,Torrente,87 295,Valencia,Comunidad Valenciana
+83,Toledo,86 070,Toledo,Castilla-La Mancha
+84,Fuengirola,85 598,Málaga,Andalucía
+85,Melilla,85 491,Melilla,
+86,Vélez-Málaga,85 377,Málaga,Andalucía
+87,Arona,85 249,Santa Cruz de Tenerife,Canarias
+88,Talavera de la Reina,84 137,Toledo,Castilla-La Mancha
+89,San Baudilio de Llobregat,83 919,Barcelona,Cataluña
+90,Ceuta,83 039,Ceuta,
+91,Pontevedra,82 535,Pontevedra,Galicia
+92,Orihuela,82 449,Alicante,Comunidad Valenciana
+93,Valdemoro,81 394,Comunidad de Madrid,
+94,Coslada,80 171,Comunidad de Madrid,
+95,Rubí,80 044,Barcelona,Cataluña
+96,Manresa,78 877,Barcelona,Cataluña
+97,Gandía,78 108,Valencia,Comunidad Valenciana
+98,Estepona,76 975,Málaga,Andalucía
+99,Alcalá de Guadaíra,76 975,Sevilla,Andalucía
+100,Palencia,76 331,Palencia,Castilla y León
+101,Guecho,76 104,Vizcaya,País Vasco
+102,Molina de Segura,76 074,Región de Murcia,
+103,Benalmádena,75 801,Málaga,Andalucía
+104,Santa Lucía de Tirajana,75 677,Las Palmas,Canarias
+105,Avilés,75 518,Principado de Asturias,
+106,Ciudad Real,75 303,Ciudad Real,Castilla-La Mancha
+107,Paterna,73 448,Valencia,Comunidad Valenciana
+108,Majadahonda,72 548,Comunidad de Madrid,
+109,Benidorm,72 342,Alicante,Comunidad Valenciana
+110,Torremolinos,70 434,Málaga,Andalucía
+111,Sagunto,70 128,Valencia,Comunidad Valenciana
+112,Sanlúcar de Barrameda,69 805,Cádiz,Andalucía
+113,Villanueva y Geltrú,68 854,Barcelona,Cataluña
+114,Castelldefels,68 427,Barcelona,Cataluña
+115,Viladecans,66 677,Barcelona,Cataluña
+116,Collado Villalba,65 657,Comunidad de Madrid,
+117,El Prat de Llobregat,65 516,Barcelona,Cataluña
+118,Arrecife,64 826,Las Palmas,Canarias
+119,Boadilla del Monte,64 742,Comunidad de Madrid,
+120,Ferrol,63 890,La Coruña,Galicia
+121,La Línea de la Concepción,63 773,Cádiz,Andalucía
+122,Granollers,63 092,Barcelona,Cataluña
+123,Ponferrada,62 963,León,Castilla y León
+124,Irún,62 920,Guipúzcoa,País Vasco
+125,Aranjuez,60 668,Comunidad de Madrid,
+126,San Vicente del Raspeig,59 928,Alicante,Comunidad Valenciana
+127,Alcoy,59 493,Alicante,Comunidad Valenciana
+128,Mérida,59 461,Badajoz,Extremadura
+129,Zamora,59 259,Zamora,Castilla y León
+130,Arganda del Rey,58 990,Comunidad de Madrid,
+131,Motril,58 939,Granada,Andalucía
+132,Sardañola del Vallés,57 879,Barcelona,Cataluña
+133,Ávila,57 741,Ávila,Castilla y León
+134,Pinto,55 208,Comunidad de Madrid,
+135,Colmenar Viejo,55 198,Comunidad de Madrid,
+136,Linares,55 096,Jaén,Andalucía
+137,Granadilla de Abona,54 942,Santa Cruz de Tenerife,Canarias
+138,Huesca,54 136,Huesca,Aragón
+139,San Bartolomé de Tirajana,53 912,Las Palmas,Canarias
+140,Cuenca,53 512,Cuenca,Castilla-La Mancha
+141,Calviá,53 162,Islas Baleares,
+142,Elda,53 034,Alicante,Comunidad Valenciana
+143,Siero,52 194,Principado de Asturias,
+144,Ibiza,51 996,Islas Baleares,
+145,Villarreal,51 852,Castellón,Comunidad Valenciana
+146,Mollet del Vallés,51 824,Barcelona,Cataluña
+147,Utrera,51 718,Sevilla,Andalucía
+148,Tres Cantos,51 453,Comunidad de Madrid,
+149,Torrelavega,51 361,Cantabria,
+150,Rincón de la Victoria,51 300,Málaga,Andalucía
+151,Segovia,51 011,Segovia,Castilla y León
+152,Adeje,50 167,Santa Cruz de Tenerife,Canarias
+153,Vic,48 364,Barcelona,Cataluña
+154,Figueras,47 879,Gerona,Cataluña
+155,Gavá,47 593,Barcelona,Cataluña
+156,Mairena del Aljarafe,47 541,Sevilla,Andalucía
+157,Esplugas de Llobregat,46 921,Barcelona,Cataluña
+158,Alcira,46 421,Valencia,Comunidad Valenciana
+159,Manacor,46 395,Islas Baleares,
+160,Santurce,46 057,Vizcaya,País Vasco
+161,San Feliú de Llobregat,46 056,Barcelona,Cataluña
+162,Mislata,45 644,Valencia,Comunidad Valenciana
+163,Denia,45 622,Alicante,Comunidad Valenciana
+164,Puertollano,45 127,Ciudad Real,Castilla-La Mancha
+165,Portugalete,44 629,Vizcaya,País Vasco
+166,Alhaurín de la Torre,43 674,Málaga,Andalucía
+167,Puerto del Rosario,43 390,Las Palmas,Canarias
+168,Alcantarilla,43 049,Región de Murcia,
+169,Lucena,42 813,Córdoba,Andalucía
+170,La Orotava,42 454,Santa Cruz de Tenerife,Canarias
+171,Puerto Real,42 069,Cádiz,Andalucía
+172,Blanes,41 653,Gerona,Cataluña
+173,Lloret de Mar,41 559,Gerona,Cataluña
+174,Santa Eulalia del Río,41 228,Islas Baleares,
+175,Antequera,41 178,Málaga,Andalucía
+176,Igualada,41 164,Barcelona,Cataluña
+177,Villafranca del Panadés,40 714,Barcelona,Cataluña
+178,Basauri,40 413,Vizcaya,País Vasco
+179,La Rinconada,40 162,Sevilla,Andalucía
+180,Soria,40 096,Soria,Castilla y León
+181,Burjasot,39 702,Valencia,Comunidad Valenciana
+182,Vendrell,39 601,Tarragona,Cataluña
+183,Écija,39 530,Sevilla,Andalucía
+184,Marrachí,39 440,Islas Baleares,
+185,Plasencia,39 412,Cáceres,Extremadura
+186,Ripollet,39 269,Barcelona,Cataluña
+187,Rentería,39 231,Guipúzcoa,País Vasco
+188,Narón,39 051,La Coruña,Galicia
+189,Lluchmayor,39 040,Islas Baleares,
+190,Torre-Pacheco,39 037,Región de Murcia,
+191,San Fernando de Henares,38 974,Comunidad de Madrid,
+192,Los Palacios y Villafranca,38 698,Sevilla,Andalucía
+193,Arucas,38 601,Las Palmas,Canarias
+194,Langreo,37 978,Principado de Asturias,
+195,Olot,37 975,Gerona,Cataluña
+196,San Adrián de Besós,37 925,Barcelona,Cataluña
+197,Santa Pola,37 816,Alicante,Comunidad Valenciana
+198,Oleiros,37 809,La Coruña,Galicia
+199,Tudela,37 791,Navarra,
+200,Villagarcía de Arosa,37 689,Pontevedra,Galicia
+201,Don Benito,37 485,Badajoz,Extremadura
+202,Los Realejos,37 207,Santa Cruz de Tenerife,Canarias
+203,Moncada y Reixach,36 891,Barcelona,Cataluña
+204,Águilas,36 862,Región de Murcia,
+205,Cambrils,36 496,Tarragona,Cataluña
+206,Tomelloso,36 304,Ciudad Real,Castilla-La Mancha
+207,Teruel,36 267,Teruel,Aragón
+208,Mieres,36 195,Principado de Asturias,
+209,Onteniente,36 194,Valencia,Comunidad Valenciana
+210,Villajoyosa,36 093,Alicante,Comunidad Valenciana
+211,Arroyomolinos,35 972,Comunidad de Madrid,
+212,Andújar,35 788,Jaén,Andalucía
+213,Burriana,35 750,Castellón,Comunidad Valenciana
+214,Miranda de Ebro,35 639,Burgos,Castilla y León
+215,Yecla,35 521,Región de Murcia,
+216,Azuqueca de Henares,35 498,Guadalajara,Castilla-La Mancha
+217,Cieza,35 286,Región de Murcia,
+218,Galapagar,35 273,Comunidad de Madrid,
+219,San Javier,35 241,Región de Murcia,
+220,Tortosa,34 639,Tarragona,Cataluña
+221,Inca,34 577,Islas Baleares,
+222,San Juan Despí,34 568,Barcelona,Cataluña
+223,Mazarrón,34 462,Región de Murcia,
+224,Villena,34 144,Alicante,Comunidad Valenciana
+225,Almendralejo,33 948,Badajoz,Extremadura
+226,Petrel,33 914,Alicante,Comunidad Valenciana
+227,Úbeda,33 810,Jaén,Andalucía
+228,San Roque,33 646,Cádiz,Andalucía
+229,Aranda de Duero,33 626,Burgos,Castilla y León
+230,Arteijo,33 516,La Coruña,Galicia
+231,Aldaya,33 376,Valencia,Comunidad Valenciana
+232,Ronda,33 329,Málaga,Andalucía
+233,Barberá del Vallés,33 322,Barcelona,Cataluña
+234,Salt,33 242,Gerona,Cataluña
+235,Castro-Urdiales,33 225,Cantabria,
+236,Totana,33 149,Región de Murcia,
+237,Níjar,32 858,Almería,Andalucía
+238,Agüimes,32 643,Las Palmas,Canarias
+239,Lejona,32 491,Vizcaya,País Vasco
+240,Ames,32 482,La Coruña,Galicia
+241,Ingenio,32 354,Las Palmas,Canarias
+242,Navalcarnero,31 974,Comunidad de Madrid,
+243,Sitges,31 954,Barcelona,Cataluña
+244,San Pedro de Ribas,31 786,Barcelona,Cataluña
+245,Vall de Uxó,31 611,Castellón,Comunidad Valenciana
+246,Manises,31 573,Valencia,Comunidad Valenciana
+247,Ciudadela,31 443,Islas Baleares,
+248,Carballo,31 416,La Coruña,Galicia
+249,Illescas,31 327,Toledo,Castilla-La Mancha
+250,Arcos de la Frontera,30 953,Cádiz,Andalucía
+251,Alcázar de San Juan,30 928,Ciudad Real,Castilla-La Mancha
+252,Coria del Río,30 887,Sevilla,Andalucía
+253,Culleredo,30 864,La Coruña,Galicia
+254,Puerto de la Cruz,30 849,Santa Cruz de Tenerife,Canarias
+255,Chirivella,30 749,Valencia,Comunidad Valenciana
+256,Calafell,30 631,Tarragona,Cataluña
+257,Hellín,30 516,Albacete,Castilla-La Mancha
+258,Valdepeñas,30 411,Ciudad Real,Castilla-La Mancha
+259,Camargo,30 349,Cantabria,
+260,Salou,30 224,Tarragona,Cataluña
+261,Crevillente,30 191,Alicante,Comunidad Valenciana
+262,Játiva,30 072,Valencia,Comunidad Valenciana
+263,Campello,29 993,Alicante,Comunidad Valenciana
+264,San Andrés del Rabanedo,29 961,León,Castilla y León
+265,Mahón,29 902,Islas Baleares,
+266,Alacuás,29 825,Valencia,Comunidad Valenciana
+267,Puente Genil,29 781,Córdoba,Andalucía
+268,Durango,29 767,Vizcaya,País Vasco
+269,Jávea,29 760,Alicante,Comunidad Valenciana
+270,Vinaroz,29 686,Castellón,Comunidad Valenciana
+271,Rota,29 675,Cádiz,Andalucía
+272,Carmona,29 551,Sevilla,Andalucía
+273,San José,29 506,Islas Baleares,
+274,Galdácano,29 332,Vizcaya,País Vasco
+275,Catarroja,29 316,Valencia,Comunidad Valenciana
+276,Seseña,29 271,Toledo,Castilla-La Mancha
+277,La Oliva,29 099,Las Palmas,Canarias
+278,Redondela,28 937,Pontevedra,Galicia
+279,Lepe,28 813,Huelva,Andalucía
+280,Premiá de Mar,28 767,Barcelona,Cataluña
+281,Martorell,28 760,Barcelona,Cataluña
+282,Pineda de Mar,28 751,Barcelona,Cataluña
+283,Villaviciosa de Odón,28 750,Comunidad de Madrid,
+284,Candelaria,28 694,Santa Cruz de Tenerife,Canarias
+285,Benicarló,28 681,Castellón,Comunidad Valenciana
+286,Cártama,28 412,Málaga,Andalucía
+287,San Vicente dels Horts,28 406,Barcelona,Cataluña
+288,Vícar,28 245,Almería,Andalucía
+289,San Antonio Abad,28 237,Islas Baleares,
+290,Camas,28 157,Sevilla,Andalucía
+291,Sueca,28 086,Valencia,Comunidad Valenciana
+292,Almazora,27 989,Castellón,Comunidad Valenciana
+293,Sestao,27 834,Vizcaya,País Vasco
+294,Lebrija,27 727,Sevilla,Andalucía
+295,San Pedro del Pinatar,27 691,Región de Murcia,
+296,Algemesí,27 438,Valencia,Comunidad Valenciana
+297,Almuñécar,27 305,Granada,Andalucía
+298,Eibar,27 234,Guipúzcoa,País Vasco
+299,Morón de la Frontera,27 229,Sevilla,Andalucía
+300,Paiporta,27 184,Valencia,Comunidad Valenciana
+301,Muchamiel,27 078,Alicante,Comunidad Valenciana
+302,Riveira,27 030,La Coruña,Galicia
+303,Paracuellos de Jarama,27 000,Comunidad de Madrid,
+304,San Andrés de la Barca,26 910,Barcelona,Cataluña
+305,Alhaurín el Grande,26 879,Málaga,Andalucía
+306,Cangas de Morrazo,26 807,Pontevedra,Galicia
+307,Jumilla,26 784,Región de Murcia,
+308,Bétera,26 759,Valencia,Comunidad Valenciana
+309,Piélagos,26 605,Cantabria,
+310,Molins de Rey,26 555,Barcelona,Cataluña
+311,Puebla de Vallbona,26 435,Valencia,Comunidad Valenciana
+312,Santa Perpetua de Moguda,25 928,Barcelona,Cataluña
+313,Ciempozuelos,25 866,Comunidad de Madrid,
+314,Calpe,25 854,Alicante,Comunidad Valenciana
+315,Alboraya,25 792,Valencia,Comunidad Valenciana
+316,Novelda,25 771,Alicante,Comunidad Valenciana
+317,Caravaca de la Cruz,25 756,Región de Murcia,
+318,Villanueva de la Serena,25 751,Badajoz,Extremadura
+319,Cuart de Poblet,25 590,Valencia,Comunidad Valenciana
+320,Oliva,25 558,Valencia,Comunidad Valenciana
+321,Onda,25 547,Castellón,Comunidad Valenciana
+322,Tomares,25 374,Sevilla,Andalucía
+323,San Juan de Alicante,25 275,Alicante,Comunidad Valenciana
+324,Almonte,25 233,Huelva,Andalucía
+325,Adra,25 195,Almería,Andalucía
+326,Villarrobledo,25 189,Albacete,Castilla-La Mancha
+327,Castellar del Vallés,25 150,Barcelona,Cataluña
+328,Torrelodones,25 115,Comunidad de Madrid,
+329,Armilla,25 059,Granada,Andalucía
+330,Coín,25 023,Málaga,Andalucía
+331,Valls,25 014,Tarragona,Cataluña
+332,Calahorra,24 994,La Rioja,
+333,Cambre,24 739,La Coruña,Galicia
+334,Gáldar,24 678,Las Palmas,Canarias
+335,Tacoronte,24 652,Santa Cruz de Tenerife,Canarias
+336,Liria,24 518,Valencia,Comunidad Valenciana
+337,Olesa de Montserrat,24 446,Barcelona,Cataluña
+338,Erandio,24 411,Vizcaya,País Vasco
+339,Martos,24 363,Jaén,Andalucía
+340,Almansa,24 282,Albacete,Castilla-La Mancha
+341,Mejorada del Campo,24 274,Comunidad de Madrid,
+342,Los Barrios,24 219,Cádiz,Andalucía
+343,Marín,24 197,Pontevedra,Galicia
+344,El Masnou,24 181,Barcelona,Cataluña
+345,Mairena del Alcor,24 125,Sevilla,Andalucía
+346,Icod de los Vinos,23 971,Santa Cruz de Tenerife,Canarias
+347,Ibi,23 920,Alicante,Comunidad Valenciana
+348,Teguise,23 881,Las Palmas,Canarias
+349,Palafrugell,23 848,Gerona,Cataluña
+350,Altea,23 820,Alicante,Comunidad Valenciana
+351,Cullera,23 753,Valencia,Comunidad Valenciana
+352,Conil de la Frontera,23 661,Cádiz,Andalucía
+353,Villanueva de la Cañada,23 593,Comunidad de Madrid,
+354,Ribarroja del Turia,23 555,Valencia,Comunidad Valenciana
+355,Pilar de la Horadada,23 428,Alicante,Comunidad Valenciana
+356,Alhama de Murcia,23 280,Región de Murcia,
+357,Vilaseca,23 176,Tarragona,Cataluña
+358,Puenteareas,23 154,Pontevedra,Galicia
+359,Zarauz,23 152,Guipúzcoa,País Vasco
+360,Moguer,22 956,Huelva,Andalucía
+361,Las Gabias,22 829,Granada,Andalucía
+362,Barbate,22 811,Cádiz,Andalucía
+363,Bormujos,22 780,Sevilla,Andalucía
+364,San Felíu de Guixols,22 751,Gerona,Cataluña
+365,Laguna de Duero,22 672,Valladolid,Castilla y León
+366,San Miguel de Abona,22 606,Santa Cruz de Tenerife,Canarias
+367,San Juan de Aznalfarache,22 472,Sevilla,Andalucía
+368,Esparraguera,22 442,Barcelona,Cataluña
+369,Guía de Isora,22 301,Santa Cruz de Tenerife,Canarias
+370,Montilla,22 298,Córdoba,Andalucía
+371,Maracena,22 275,Granada,Andalucía
+372,Amposta,22 270,Tarragona,Cataluña
+373,Aljaraque,22 259,Huelva,Andalucía
+374,Picasent,22 236,Valencia,Comunidad Valenciana
+375,Las Torres de Cotillas,22 183,Región de Murcia,
+376,Valle de Egüés,22 121,Navarra,
+377,Castrillón,22 103,Principado de Asturias,
+378,Moncada,22 067,Valencia,Comunidad Valenciana
+379,Priego de Córdoba,22 003,Córdoba,Andalucía
+380,Arroyo de la Encomienda,21 946,Valladolid,Castilla y León
+381,Nerja,21 913,Málaga,Andalucía
+382,Alfafar,21 879,Valencia,Comunidad Valenciana
+383,Almoradí,21 874,Alicante,Comunidad Valenciana
+384,Mondragón,21 867,Guipúzcoa,País Vasco
+385,Ayamonte,21 645,Huelva,Andalucía
+386,Isla Cristina,21 603,Huelva,Andalucía
+387,Alcalá la Real,21 587,Jaén,Andalucía
+388,Güímar,21 536,Santa Cruz de Tenerife,Canarias
+389,Aspe,21 473,Alicante,Comunidad Valenciana
+390,Tías,21 433,Las Palmas,Canarias
+391,Alcudia,21 322,Islas Baleares,
+392,Pájara,21 271,Las Palmas,Canarias
+393,Manlleu,21 172,Barcelona,Cataluña
+394,Cartaya,21 128,Huelva,Andalucía
+395,Vilasar de Mar,21 055,Barcelona,Cataluña
+396,Algete,20 991,Comunidad de Madrid,
+397,Torrox,20 932,Málaga,Andalucía
+398,La Unión,20 897,Región de Murcia,
+399,Burlada,20 865,Navarra,
+400,Mogán,20 845,Las Palmas,Canarias
+401,Carcagente,20 777,Valencia,Comunidad Valenciana
+402,Puzol,20 731,Valencia,Comunidad Valenciana
+403,Palma del Río,20 688,Córdoba,Andalucía
+404,Loja,20 580,Granada,Andalucía
+405,Baza,20 579,Granada,Andalucía
+406,Porriño,20 562,Pontevedra,Galicia
+407,Hernani,20 527,Guipúzcoa,País Vasco
+408,Las Franquesas del Vallés,20 522,Barcelona,Cataluña
+409,Alfaz del Pi,20 518,Alicante,Comunidad Valenciana
+410,Bañolas,20 506,Gerona,Cataluña
+411,San Justo Desvern,20 462,Barcelona,Cataluña
+412,Huércal-Overa,20 425,Almería,Andalucía
+413,Requena,20 387,Valencia,Comunidad Valenciana
+414,San Martín de la Vega,20 304,Comunidad de Madrid,
+415,Lalín,20 282,Pontevedra,Galicia
+416,San Quirico de Tarrasa,20 241,Barcelona,Cataluña
+417,Los Llanos de Aridane,20 189,Santa Cruz de Tenerife,Canarias
+418,Rosas,20 140,Gerona,Cataluña
+419,Archena,20 110,Región de Murcia,
+420,Medina del Campo,20 090,Valladolid,Castilla y León
+421,La Estrada,20 081,Pontevedra,Galicia
+422,Cabra,20 070,Córdoba,Andalucía
+423,Tolosa,20 065,Guipúzcoa,País Vasco
+424,Atarfe,20 024,Granada,Andalucía
+425,Benicasim,19 951,Castellón,Comunidad Valenciana
+426,Humanes de Madrid,19 902,Comunidad de Madrid,
+427,La Zubia,19 885,Granada,Andalucía
+428,Calella,19 862,Barcelona,Cataluña
+429,Silla,19 683,Valencia,Comunidad Valenciana
+430,Calatayud,19 677,Zaragoza,Aragón
+431,Chipiona,19 649,Cádiz,Andalucía
+432,Barañáin,19 575,Navarra,
+433,Amorebieta-Echano,19 570,Vizcaya,País Vasco
+434,Arahal,19 491,Sevilla,Andalucía
+435,Callosa de Segura,19 484,Alicante,Comunidad Valenciana
+436,Albolote,19 474,Granada,Andalucía
+437,Moaña,19 315,Pontevedra,Galicia
+438,Marchena,19 271,Sevilla,Andalucía
+439,El Viso del Alcor,19 265,Sevilla,Andalucía
+440,Malgrat de Mar,19 213,Barcelona,Cataluña
+441,San Bartolomé,19 200,Las Palmas,Canarias
+442,Lasarte-Oria,19 133,Guipúzcoa,País Vasco
+443,La Eliana,19 054,Valencia,Comunidad Valenciana
+444,Teo,19 034,La Coruña,Galicia
+445,Cardedeu,19 023,Barcelona,Cataluña
+446,Boiro,18 984,La Coruña,Galicia
+447,La Nucía,18 970,Alicante,Comunidad Valenciana
+448,Utebo,18 955,Zaragoza,Aragón
+449,Vera,18 919,Almería,Andalucía
+450,Parets,18 893,Barcelona,Cataluña
+451,Villaquilambre,18 765,León,Castilla y León
+452,Tarifa,18 621,Cádiz,Andalucía
+453,Los Alcázares,18 598,Región de Murcia,
+454,Felanich,18 592,Islas Baleares,
+455,Baena,18 533,Córdoba,Andalucía
+456,Guadix,18 527,Granada,Andalucía
+457,Santa Brígida,18 510,Las Palmas,Canarias
+458,Huércal de Almería,18 507,Almería,Andalucía
+459,San Lorenzo de El Escorial,18 489,Comunidad de Madrid,
+460,San Celoni,18 479,Barcelona,Cataluña
+461,Tordera,18 409,Barcelona,Cataluña
+462,Lora del Río,18 316,Sevilla,Andalucía
+463,Palamós,18 293,Gerona,Cataluña
+464,Tárrega,18 268,Lérida,Cataluña
+465,Monforte de Lemos,18 234,Lugo,Galicia
+466,El Astillero,18 220,Cantabria,
+467,Caldas de Montbuy,18 109,Barcelona,Cataluña
+468,Fuente Álamo de Murcia,18 063,Región de Murcia,
+469,Nigrán,18 045,Pontevedra,Galicia
+470,Llodio,17 917,Álava,País Vasco
+471,Munguía,17 882,Vizcaya,País Vasco
+472,El Rosario,17 866,Santa Cruz de Tenerife,Canarias
+473,Manilva,17 857,Málaga,Andalucía
+474,Sangenjo,17 854,Pontevedra,Galicia
+475,Monzón,17 839,Huesca,Aragón
+476,Manzanares,17 732,Ciudad Real,Castilla-La Mancha
+477,Villanueva del Pardillo,17 731,Comunidad de Madrid,
+478,Torredembarra,17 670,Tarragona,Cataluña
+479,Balaguer,17 649,Lérida,Cataluña
+480,Daimiel,17 629,Ciudad Real,Castilla-La Mancha
+481,Rojales,17 451,Alicante,Comunidad Valenciana
+482,Tabernes de Valldigna,17 443,Valencia,Comunidad Valenciana
+483,Osuna,17 418,Sevilla,Andalucía
+484,Yaiza,17 415,Las Palmas,Canarias
+485,Mula,17 382,Región de Murcia,
+486,Puerto Lumbreras,17 346,Región de Murcia,
+487,Guardamar del Segura,17 328,Alicante,Comunidad Valenciana
+488,Tuy,17 327,Pontevedra,Galicia
+489,Poyo,17 297,Pontevedra,Galicia
+490,Barbastro,17 295,Huesca,Aragón
+491,Pollensa,17 279,Islas Baleares,
+492,Benavente,17 261,Zamora,Castilla y León
+493,Bailén,17 211,Jaén,Andalucía
+494,Piera,17 203,Barcelona,Cataluña
+495,Castilleja de la Cuesta,17 167,Sevilla,Andalucía
+496,Ejea de los Caballeros,17 135,Zaragoza,Aragón
+497,Guadarrama,17 063,Comunidad de Madrid,
+498,La Garriga,17 052,Barcelona,Cataluña
+499,Canovellas,17 051,Barcelona,Cataluña
+500,Guernica y Luno,17 050,Vizcaya,País Vasco
+501,Albal,17 024,Valencia,Comunidad Valenciana
+502,Berga,16 959,Barcelona,Cataluña
+503,Pozoblanco,16 946,Córdoba,Andalucía
+504,Cubellas,16 914,Barcelona,Cataluña
+505,Navalmoral de la Mata,16 895,Cáceres,Extremadura
+506,Fuenterrabía,16 887,Guipúzcoa,País Vasco
+507,Bermeo,16 878,Vizcaya,País Vasco
+508,Sada,16 874,La Coruña,Galicia
+509,El Escorial,16 873,Comunidad de Madrid,
+510,Villalbilla,16 823,Comunidad de Madrid,
+511,Montornés del Vallés,16 800,Barcelona,Cataluña
+512,Masamagrell,16 766,Valencia,Comunidad Valenciana
+513,Chiva,16 750,Valencia,Comunidad Valenciana
+514,Zafra,16 672,Badajoz,Extremadura
+515,La Algaba,16 618,Sevilla,Andalucía
+516,Espartinas,16 505,Sevilla,Andalucía
+517,Churriana de la Vega,16 445,Granada,Andalucía
+518,Las Cabezas de San Juan,16 400,Sevilla,Andalucía
+519,Ubrique,16 363,Cádiz,Andalucía
+520,Arenys de Mar,16 342,Barcelona,Cataluña
+521,Tarancón,16 257,Cuenca,Castilla-La Mancha
+522,Santomera,16 245,Región de Murcia,
+523,Alcañiz,16 151,Teruel,Aragón
+524,Carlet,16 141,Valencia,Comunidad Valenciana
+525,Llissá de Munt,16 092,Barcelona,Cataluña
+526,Punta Umbría,16 069,Huelva,Andalucía
+527,Tuineje,15 967,Las Palmas,Canarias
+528,Benetúser,15 879,Valencia,Comunidad Valenciana
+529,Pasajes,15 857,Guipúzcoa,País Vasco
+530,Vallirana,15 823,Barcelona,Cataluña
+531,Miguelturra,15 769,Ciudad Real,Castilla-La Mancha
+532,Baeza,15 723,Jaén,Andalucía
+533,Zizur Mayor,15 715,Navarra,
+534,Corvera de Asturias,15 612,Principado de Asturias,
+535,Ermua,15 599,Vizcaya,País Vasco
+536,La Roda,15 542,Albacete,Castilla-La Mancha
+537,Corbera de Llobregat,15 466,Barcelona,Cataluña
+538,Santa Cruz de la Palma,15 441,Santa Cruz de Tenerife,Canarias
+539,San Martín del Rey Aurelio,15 431,Principado de Asturias,
+540,Meco,15 404,Comunidad de Madrid,
+541,Fraga,15 373,Huesca,Aragón
+542,Montijo,15 312,Badajoz,Extremadura
+543,Alpedrete,15 312,Comunidad de Madrid,
+544,Santa Úrsula,15 285,Santa Cruz de Tenerife,Canarias
+545,Cunit,15 278,Tarragona,Cataluña
+546,La Solana,15 242,Ciudad Real,Castilla-La Mancha
+547,Vivero,15 221,Lugo,Galicia
+548,Arnedo,15 201,La Rioja,
+549,Azpeitia,15 183,Guipúzcoa,País Vasco
+550,Palau-solità i Plegamans,15 130,Barcelona,Cataluña
+551,Santa Fe,15 105,Granada,Andalucía
+552,Mos,15 076,Pontevedra,Galicia
+553,San Carlos de la Rápita,15 046,Tarragona,Cataluña
+554,Gondomar,15 043,Pontevedra,Galicia
+555,Mollerusa,15 037,Lérida,Cataluña
+556,Cuevas del Almanzora,15 023,Almería,Andalucía
+557,Canet de Mar,15 010,Barcelona,Cataluña
+558,Villaviciosa,15 000,Principado de Asturias,
+559,Torelló,14 902,Barcelona,Cataluña
+560,Sopelana,14 872,Vizcaya,País Vasco
+561,Ogíjares,14 803,Granada,Andalucía
+562,La Carolina,14 801,Jaén,Andalucía
+563,Cuarte de Huerva,14 701,Zaragoza,Aragón
+564,Santa Marta de Tormes,14 683,Salamanca,Castilla y León
+565,Andoáin,14 555,Guipúzcoa,País Vasco
+566,Vergara,14 487,Guipúzcoa,País Vasco
+567,Cehegín,14 485,Región de Murcia,
+568,Alginet,14 442,Valencia,Comunidad Valenciana
+569,Bollullos Par del Condado,14 263,Huelva,Andalucía
+570,La Carlota,14 258,Córdoba,Andalucía
+571,Estella,14 195,Navarra,
+572,Sanlúcar la Mayor,14 172,Sevilla,Andalucía
+573,La Puebla,14 164,Islas Baleares,
+574,Moralzarzal,14 124,Comunidad de Madrid,
+575,Noya,14 115,La Coruña,Galicia
+576,Pilas,14 052,Sevilla,Andalucía
+577,Beasáin,13 970,Guipúzcoa,País Vasco
+578,Carballino,13 968,Orense,Galicia
+579,Santa María de Guía de Gran Canaria,13 948,Las Palmas,Canarias
+580,Llanera,13 948,Principado de Asturias,
+581,Torrijos,13 885,Toledo,Castilla-La Mancha
+582,Torredelcampo,13 871,Jaén,Andalucía
+583,Villalba,13 870,Lugo,Galicia
+584,Ocaña,13 868,Toledo,Castilla-La Mancha
+585,Tomiño,13 836,Pontevedra,Galicia
+586,Nules,13 827,Castellón,Comunidad Valenciana
+587,Santa Cruz de Bezana,13 689,Cantabria,
+588,Guillena,13 682,Sevilla,Andalucía
+589,Cambados,13 681,Pontevedra,Galicia
+590,Valdemorillo,13 651,Comunidad de Madrid,
+591,San Agustín del Guadalix,13 650,Comunidad de Madrid,
+592,Santa Coloma de Farnés,13 634,Gerona,Cataluña
+593,Jaca,13 620,Huesca,Aragón
+594,Verín,13 612,Orense,Galicia
+595,Sóller,13 610,Islas Baleares,
+596,Montroig,13 592,Tarragona,Cataluña
+597,Llanes,13 524,Principado de Asturias,
+598,Antigua,13 523,Las Palmas,Canarias
+599,Álora,13 512,Málaga,Andalucía
+600,Gines,13 481,Sevilla,Andalucía
+601,Godella,13 414,Valencia,Comunidad Valenciana
+602,Alovera,13 407,Guadalajara,Castilla-La Mancha
+603,Velilla de San Antonio,13 376,Comunidad de Madrid,
+604,El Casar,13 327,Guadalajara,Castilla-La Mancha
+605,Torredonjimeno,13 301,Jaén,Andalucía
+606,Aguilar de la Frontera,13 282,Córdoba,Andalucía
+607,El Barco de Valdeorras,13 277,Orense,Galicia
+608,Sarria,13 221,Lugo,Galicia
+609,La Llagosta,13 169,Barcelona,Cataluña
+610,Canals,13 162,Valencia,Comunidad Valenciana
+611,Santa Margarita,13 160,Islas Baleares,
+612,Albatera,13 092,Alicante,Comunidad Valenciana
+613,Betanzos,13 082,La Coruña,Galicia
+614,Badía del Vallés,13 074,Barcelona,Cataluña
+615,Abarán,12 964,Región de Murcia,
+616,Campo de Criptana,12 960,Ciudad Real,Castilla-La Mancha
+617,San Sadurní de Noya,12 945,Barcelona,Cataluña
+618,Gibraleón,12 940,Huelva,Andalucía
+619,Berja,12 917,Almería,Andalucía
+620,Vejer de la Frontera,12 864,Cádiz,Andalucía
+621,Abrera,12 848,Barcelona,Cataluña
+622,Argentona,12 846,Barcelona,Cataluña
+623,Castellbisbal,12 813,Barcelona,Cataluña
+624,Brenes,12 804,Sevilla,Andalucía
+625,Teror,12 799,Las Palmas,Canarias
+626,Vilanova del Camí,12 758,Barcelona,Cataluña
+627,Órdenes,12 669,La Coruña,Galicia
+628,Ceutí,12 668,Región de Murcia,
+629,Valverde del Camino,12 655,Huelva,Andalucía
+630,Seo de Urgel,12 568,Lérida,Cataluña
+631,Castillo de Aro,12 566,Gerona,Cataluña
+632,Salobreña,12 562,Granada,Andalucía
+633,Fene,12 561,La Coruña,Galicia
+634,Monóvar,12 542,Alicante,Comunidad Valenciana
+635,Palos de la Frontera,12 537,Huelva,Andalucía
+636,Aranguren,12 517,Navarra,
+637,Teulada,12 515,Alicante,Comunidad Valenciana
+638,Santañí,12 480,Islas Baleares,
+639,Montgat,12 462,Barcelona,Cataluña
+640,Bayona,12 407,Pontevedra,Galicia
+641,Estepa,12 373,Sevilla,Andalucía
+642,Villafranca de los Barros,12 366,Badajoz,Extremadura
+643,Torroella de Montgrí,12 356,Gerona,Cataluña
+644,Laviana,12 355,Principado de Asturias,
+645,Capdepera,12 340,Islas Baleares,
+646,Fuensalida,12 329,Toledo,Castilla-La Mancha
+647,Albox,12 311,Almería,Andalucía
+648,Alcalá del Río,12 288,Sevilla,Andalucía
+649,Benisa,12 279,Alicante,Comunidad Valenciana
+650,La Alcudia,12 197,Valencia,Comunidad Valenciana
+651,Coria,12 166,Cáceres,Extremadura
+652,Villamartín,12 165,Cádiz,Andalucía
+653,Vegas del Genil,12 165,Granada,Andalucía
+654,Huétor Vega,12 159,Granada,Andalucía
+655,Socuéllamos,12 123,Ciudad Real,Castilla-La Mancha
+656,Calonge,12 043,Gerona,Cataluña
+657,Béjar,12 021,Salamanca,Castilla y León
+658,Bolaños de Calatrava,11 991,Ciudad Real,Castilla-La Mancha
+659,Benifayó,11 984,Valencia,Comunidad Valenciana
+660,Echévarri,11 975,Vizcaya,País Vasco
+661,Santiago del Teide,11 972,Santa Cruz de Tenerife,Canarias
+662,Arrigorriaga,11 954,Vizcaya,País Vasco
+663,Son Servera,11 932,Islas Baleares,
+664,Bueu,11 922,Pontevedra,Galicia
+665,Valle de Trápaga,11 911,Vizcaya,País Vasco
+666,Benaguacil,11 877,Valencia,Comunidad Valenciana
+667,La Puebla del Río,11 862,Sevilla,Andalucía
+668,Andrach,11 833,Islas Baleares,
+669,San Andrés de Llavaneras,11 831,Barcelona,Cataluña
+670,Deltebre,11 818,Tarragona,Cataluña
+671,Ciudad Rodrigo,11 810,Salamanca,Castilla y León
+672,Olivenza,11 776,Badajoz,Extremadura
+673,Haro,11 763,La Rioja,
+674,Campos,11 763,Islas Baleares,
+675,Yuncos,11 762,Toledo,Castilla-La Mancha
+676,Picaña,11 760,Valencia,Comunidad Valenciana
+677,Medina Sidonia,11 738,Cádiz,Andalucía
+678,Pallejá,11 736,Barcelona,Cataluña
+679,Castellón de Ampurias,11 731,Gerona,Cataluña
+680,Peligros,11 676,Granada,Andalucía
+681,Bullas,11 664,Región de Murcia,
+682,Azcoitia,11 636,Guipúzcoa,País Vasco
+683,Utiel,11 632,Valencia,Comunidad Valenciana
+684,Cangas del Narcea,11 596,Principado de Asturias,
+685,Oñate,11 567,Guipúzcoa,País Vasco
+686,Laracha,11 543,La Coruña,Galicia
+687,Beniel,11 501,Región de Murcia,
+688,Elgóibar,11 500,Guipúzcoa,País Vasco
+689,Jódar,11 449,Jaén,Andalucía
+690,La Bisbal del Ampurdán,11 383,Gerona,Cataluña
+691,Mancha Real,11 375,Jaén,Andalucía
+692,Castalla,11 365,Alicante,Comunidad Valenciana
+693,Tegueste,11 344,Santa Cruz de Tenerife,Canarias
+694,Lardero,11 321,La Rioja,
+695,Cocentaina,11 309,Alicante,Comunidad Valenciana
+696,Pulpí,11 247,Almería,Andalucía
+697,Sonseca,11 205,Toledo,Castilla-La Mancha
+698,Formentera,11 171,Islas Baleares,
+699,Bollullos de la Mitación,11 160,Sevilla,Andalucía
+700,Barbadanes,11 140,Orense,Galicia
+701,Quintanar de la Orden,11 119,Toledo,Castilla-La Mancha
+702,Fortuna,11 094,Región de Murcia,
+703,Cabanillas del Campo,11 034,Guadalajara,Castilla-La Mancha
+704,Brunete,11 014,Comunidad de Madrid,
+705,Bargas,10 978,Toledo,Castilla-La Mancha
+706,San Juan de Torruella,10 959,Barcelona,Cataluña
+707,Valdés,10 958,Principado de Asturias,
+708,Oropesa del Mar,10 958,Castellón,Comunidad Valenciana
+709,Berriozar,10 919,Navarra,
+710,Meliana,10 918,Valencia,Comunidad Valenciana
+711,La Roca del Vallés,10 913,Barcelona,Cataluña
+712,Santoña,10 892,Cantabria,
+713,La Puebla de Cazalla,10 884,Sevilla,Andalucía
+714,Rianjo,10 854,La Coruña,Galicia
+715,Laredo,10 849,Cantabria,
+716,Cassá de la Selva,10 836,Gerona,Cataluña
+717,El Grove,10 828,Pontevedra,Galicia
+718,Alberique,10 815,Valencia,Comunidad Valenciana
+719,Los Corrales de Buelna,10 785,Cantabria,
+720,Cantillana,10 782,Sevilla,Andalucía
+721,Villamarchante,10 772,Valencia,Comunidad Valenciana
+722,Ripoll,10 731,Gerona,Cataluña
+723,La Palma del Condado,10 726,Huelva,Andalucía
+724,Tarazona,10 720,Zaragoza,Aragón
+725,Tafalla,10 698,Navarra,
+726,Huétor Tájar,10 673,Granada,Andalucía
+727,Villafranca de Ordizia,10 641,Guipúzcoa,País Vasco
+728,Sedaví,10 637,Valencia,Comunidad Valenciana
+729,Daganzo de Arriba,10 611,Comunidad de Madrid,
+730,Ansoáin,10 608,Navarra,
+731,Alcácer,10 575,Valencia,Comunidad Valenciana
+732,Premiá de Dalt,10 532,Barcelona,Cataluña
+733,Alcora,10 526,Castellón,Comunidad Valenciana
+734,Llinás del Vallés,10 499,Barcelona,Cataluña
+735,Pego,10 485,Alicante,Comunidad Valenciana
+736,La Escala,10 478,Gerona,Cataluña
+737,Gozón,10 470,Principado de Asturias,
+738,Santa Margarita de Montbuy,10 456,Barcelona,Cataluña
+739,Gelves,10 388,Sevilla,Andalucía
+740,Villacarrillo,10 344,Jaén,Andalucía
+741,Caspe,10 336,Zaragoza,Aragón
+742,Garrucha,10 336,Almería,Andalucía
+743,Oyarzun,10 331,Guipúzcoa,País Vasco
+744,El Álamo,10 322,Comunidad de Madrid,
+745,Astorga,10 321,León,Castilla y León
+746,Peñarroya-Pueblonuevo,10 317,Córdoba,Andalucía
+747,Amurrio,10 313,Álava,País Vasco
+748,Lena,10 312,Principado de Asturias,
+749,Salvatierra de Miño,10 274,Pontevedra,Galicia
+750,Alcaudete,10 265,Jaén,Andalucía
+751,Villanueva de Arosa,10 225,Pontevedra,Galicia
+752,Torrejón de la Calzada,10 222,Comunidad de Madrid,
+753,Alguazas,10 218,Región de Murcia,
+754,Alhendín,10 216,Granada,Andalucía
+755,Zumaya,10 211,Guipúzcoa,País Vasco
+756,San Antonio de Benagéber,10 200,Valencia,Comunidad Valenciana
+757,Carreño,10 177,Principado de Asturias,
+758,Madridejos,10 169,Toledo,Castilla-La Mancha
+759,Foz,10 163,Lugo,Galicia
+760,Calasparra,10 161,Región de Murcia,
+761,Caudete,10 146,Albacete,Castilla-La Mancha
+762,Masanasa,10 146,Valencia,Comunidad Valenciana
+763,Alella,10 139,Barcelona,Cataluña
+764,Griñón,10 087,Comunidad de Madrid,
+765,Aller,10 076,Principado de Asturias,
+766,Sax,10 072,Alicante,Comunidad Valenciana
+767,Binéfar,10 070,Huesca,Aragón
+768,San Vicente de Castellet,10 068,Barcelona,Cataluña
+769,Villava,10 067,Navarra,
+770,La Bañeza,10 047,León,Castilla y León
+771,Mengíbar,10 041,Jaén,Andalucía
+772,La Guardia,9 998,Pontevedra,Galicia
+773,Íllora,9 951,Granada,Andalucía
+774,Bigas,9 949,Barcelona,Cataluña
+775,Matadepera,9 899,Barcelona,Cataluña
+776,Pizarra,9 886,Málaga,Andalucía
+777,Santa María de Palautordera,9 872,Barcelona,Cataluña
+778,Puentes de García Rodríguez,9 867,La Coruña,Galicia
+779,Fuente Palmera,9 850,Córdoba,Andalucía
+780,Masquefa,9 839,Barcelona,Cataluña
+781,Ribadeo,9 828,Lugo,Galicia
+782,Alcanar,9 827,Tarragona,Cataluña
+783,Alfaro,9 823,La Rioja,
+784,Palafolls,9 819,Barcelona,Cataluña
+785,El Espinar,9 814,Segovia,Castilla y León
+786,Consuegra,9 805,Toledo,Castilla-La Mancha
+787,Alcarrás,9 787,Lérida,Cataluña
+788,Mora,9 782,Toledo,Castilla-La Mancha
+789,Rute,9 779,Córdoba,Andalucía
+790,Puigcerdá,9 764,Gerona,Cataluña
+791,El Molar,9 759,Comunidad de Madrid,
+792,Alayor,9 748,Islas Baleares,
+793,Zumárraga,9 681,Guipúzcoa,País Vasco
+794,Villarrubia de los Ojos,9 667,Ciudad Real,Castilla-La Mancha
+795,Valsequillo de Gran Canaria,9 667,Las Palmas,Canarias
+796,Pinos Puente,9 664,Granada,Andalucía
+797,San Juan del Puerto,9 659,Huelva,Andalucía
+798,Caldas de Reyes,9 620,Pontevedra,Galicia
+799,Grado,9 616,Principado de Asturias,
+800,Fernán Núñez,9 611,Córdoba,Andalucía
+801,Cuéllar,9 608,Segovia,Castilla y León
+802,Buñol,9 579,Valencia,Comunidad Valenciana
+803,Sevilla la Nueva,9 551,Comunidad de Madrid,
+804,Colmenarejo,9 534,Comunidad de Madrid,
+805,Ginzo de Limia,9 529,Orense,Galicia
+806,Villacañas,9 511,Toledo,Castilla-La Mancha
+807,San Sebastián de La Gomera,9 501,Santa Cruz de Tenerife,Canarias
+808,Senmanat,9 474,Barcelona,Cataluña
+809,Cervelló,9 469,Barcelona,Cataluña
+810,Rafelbuñol,9 467,Valencia,Comunidad Valenciana
+811,Tabernes Blanques,9 456,Valencia,Comunidad Valenciana
+812,Burela,9 454,Lugo,Galicia
+813,Cervera,9 453,Lérida,Cataluña
+814,San Fulgencio,9 443,Alicante,Comunidad Valenciana
+815,Padul,9 436,Granada,Andalucía
+816,Olivares,9 427,Sevilla,Andalucía
+817,Segorbe,9 425,Castellón,Comunidad Valenciana
+818,Sabiñánigo,9 423,Huesca,Aragón
+819,Salceda de Caselas,9 421,Pontevedra,Galicia
+820,Tocina,9 420,Sevilla,Andalucía
+821,Arenys de Munt,9 413,Barcelona,Cataluña
+822,Abanto y Ciérvana,9 402,Vizcaya,País Vasco
+823,Soto del Real,9 399,Comunidad de Madrid,
+824,Manzanares el Real,9 386,Comunidad de Madrid,
+825,Umbrete,9 376,Sevilla,Andalucía
+826,Miajadas,9 359,Cáceres,Extremadura
+827,Santa Comba,9 342,La Coruña,Galicia
+828,Santa María de Cayón,9 316,Cantabria,
+829,Monserrat,9 312,Valencia,Comunidad Valenciana
+830,La Ametlla,9 296,Barcelona,Cataluña
+831,Catral,9 275,Alicante,Comunidad Valenciana
+832,Muro de Alcoy,9 253,Alicante,Comunidad Valenciana
+833,Benahavís,9 244,Málaga,Andalucía
+834,Vilasar de Dalt,9 230,Barcelona,Cataluña
+835,La Victoria de Acentejo,9 228,Santa Cruz de Tenerife,Canarias
+836,Puebla del Caramiñal,9 227,La Coruña,Galicia
+837,San Lorenzo del Cardezar,9 227,Islas Baleares,
+838,Llagostera,9 208,Gerona,Cataluña
+839,Tiana,9 198,Barcelona,Cataluña
+840,San Fausto de Campcentellas,9 197,Barcelona,Cataluña
+841,Cisterniga,9 182,Valladolid,Castilla y León
+842,Binisalem,9 172,Islas Baleares,
+843,Solsona,9 171,Lérida,Cataluña
+844,Palomares del Río,9 161,Sevilla,Andalucía
+845,San Fructuoso de Bages,9 156,Barcelona,Cataluña
+846,Jerez de los Caballeros,9 147,Badajoz,Extremadura
+847,El Sauzal,9 145,Santa Cruz de Tenerife,Canarias
+848,Montoro,9 125,Córdoba,Andalucía
+849,Puerto del Son,9 125,La Coruña,Galicia
+850,Loeches,9 108,Comunidad de Madrid,
+851,La Matanza de Acentejo,9 092,Santa Cruz de Tenerife,Canarias
+852,Suances,9 091,Cantabria,
+853,Arico,9 020,Santa Cruz de Tenerife,Canarias
+854,San Martín de Valdeiglesias,9 003,Comunidad de Madrid,
+855,Almusafes,8 996,Valencia,Comunidad Valenciana
+856,El Puig,8 992,Valencia,Comunidad Valenciana
+857,Hoyo de Manzanares,8 973,Comunidad de Madrid,
+858,Cheste,8 962,Valencia,Comunidad Valenciana
+859,Almagro,8 958,Ciudad Real,Castilla-La Mancha
+860,Villamediana de Iregua,8 954,La Rioja,
+861,Silleda,8 876,Pontevedra,Galicia
+862,Tineo,8 857,Principado de Asturias,
+863,Finestrat,8 836,Alicante,Comunidad Valenciana
+864,Montmeló,8 825,Barcelona,Cataluña
+865,Tudela de Duero,8 780,Valladolid,Castilla y León
+866,La Mojonera,8 778,Almería,Andalucía
+867,Monforte del Cid,8 777,Alicante,Comunidad Valenciana
+868,Olias del Rey,8 705,Toledo,Castilla-La Mancha
+869,Puebla de Farnals,8 699,Valencia,Comunidad Valenciana
+870,Tordesillas,8 681,Valladolid,Castilla y León
+871,Zuera,8 677,Zaragoza,Aragón
+872,Colmenar de Oreja,8 649,Comunidad de Madrid,
+873,El Cuervo de Sevilla,8 635,Sevilla,Andalucía
+874,Corella,8 629,Navarra,
+875,Trujillo,8 605,Cáceres,Extremadura
+876,Reinosa,8 570,Cantabria,
+877,Pedreguer,8 558,Alicante,Comunidad Valenciana
+878,Colindres,8 549,Cantabria,
+879,Santiponce,8 539,Sevilla,Andalucía
+880,Ortuella,8 536,Vizcaya,País Vasco
+881,Polinyá,8 482,Barcelona,Cataluña
+882,Villanueva de Córdoba,8 460,Córdoba,Andalucía
+883,Tona,8 455,Barcelona,Cataluña
+884,Peñíscola,8 449,Castellón,Comunidad Valenciana
+885,Campillos,8 435,Málaga,Andalucía
+886,Noáin,8 429,Navarra,
+887,El Boalo,8 424,Comunidad de Madrid,
+888,Reocín,8 422,Cantabria,
+889,Ollería,8 421,Valencia,Comunidad Valenciana
+890,Caldas de Malavella,8 418,Gerona,Cataluña
+891,Santa Coloma de Cervelló,8 393,Barcelona,Cataluña
+892,Herencia,8 385,Ciudad Real,Castilla-La Mancha
+893,Carboneras,8 375,Almería,Andalucía
+894,Padrón,8 355,La Coruña,Galicia
+895,Toro,8 349,Zamora,Castilla y León
+896,Monachil,8 349,Granada,Andalucía
+897,Legazpia,8 341,Guipúzcoa,País Vasco
+898,Aracena,8 340,Huelva,Andalucía
+899,Vidreras,8 339,Gerona,Cataluña
+900,Zalla,8 319,Vizcaya,País Vasco
+901,Roquetas,8 302,Tarragona,Cataluña
+902,Pinoso,8 281,Alicante,Comunidad Valenciana
+903,Marchamalo,8 273,Guadalajara,Castilla-La Mancha
+904,Cintruénigo,8 265,Navarra,
+905,Muros,8 251,La Coruña,Galicia
+906,Cenes de la Vega,8 231,Granada,Andalucía
+907,Artá,8 208,Islas Baleares,
+908,Bembibre,8 196,León,Castilla y León
+909,Redován,8 183,Alicante,Comunidad Valenciana
+910,Cabezón de la Sal,8 181,Cantabria,
+911,Ondárroa,8 179,Vizcaya,País Vasco
+912,Brión,8 145,La Coruña,Galicia
+913,Navia,8 136,Principado de Asturias,
+914,Morata de Tajuña,8 115,Comunidad de Madrid,
+915,Casares,8 111,Málaga,Andalucía
+916,Náquera,8 102,Valencia,Comunidad Valenciana
+917,Los Santos de Maimona,8 096,Badajoz,Extremadura
+918,Nájera,8 059,La Rioja,
+919,Archidona,8 050,Málaga,Andalucía
+920,Rociana del Condado,8 048,Huelva,Andalucía
+921,Valencina de la Concepción,8 029,Sevilla,Andalucía
+922,Chantada,8 006,Lugo,Galicia
+923,Almodóvar del Río,7 995,Córdoba,Andalucía
+924,Trigueros,7 989,Huelva,Andalucía
+925,El Paso,7 967,Santa Cruz de Tenerife,Canarias
+926,Gélida,7 953,Barcelona,Cataluña
+927,Villanueva del Arzobispo,7 933,Jaén,Andalucía
+928,Dolores,7 919,Alicante,Comunidad Valenciana
+929,La Almunia de Doña Godina,7 914,Zaragoza,Aragón
+930,San Esteban de Sasroviras,7 906,Barcelona,Cataluña
+931,Moya,7 889,Las Palmas,Canarias
+932,Olvera,7 887,Cádiz,Andalucía
+933,La Puebla de Montalbán,7 885,Toledo,Castilla-La Mancha
+934,Santa Eulalia de Ronsana,7 846,Barcelona,Cataluña
+935,Villablino,7 845,León,Castilla y León
+936,Gerena,7 833,Sevilla,Andalucía
+937,Baztán,7 831,Navarra,
+938,Pravia,7 830,Principado de Asturias,
+939,Roda de Bará,7 829,Tarragona,Cataluña
+940,Muro,7 825,Islas Baleares,
+941,Tobarra,7 824,Albacete,Castilla-La Mancha
+942,Massanet de la Selva,7 823,Gerona,Cataluña
+943,Viladecaballs,7 809,Barcelona,Cataluña
+944,Cabrils,7 799,Barcelona,Cataluña
+945,Camarma de Esteruelas,7 792,Comunidad de Madrid,
+946,Vega de San Mateo,7 782,Las Palmas,Canarias
+947,Cúllar Vega,7 770,Granada,Andalucía
+948,Arévalo,7 768,Ávila,Castilla y León
+949,Onil,7 763,Alicante,Comunidad Valenciana
+950,Moncófar,7 747,Castellón,Comunidad Valenciana
+951,Villarejo de Salvanés,7 746,Comunidad de Madrid,
+952,Malagón,7 745,Ciudad Real,Castilla-La Mancha
+953,Torres de la Alameda,7 737,Comunidad de Madrid,
+954,Centellas,7 726,Barcelona,Cataluña
+955,Abadiano,7 708,Vizcaya,País Vasco
+956,Callosa de Ensarriá,7 708,Alicante,Comunidad Valenciana
+957,Lorquí,7 706,Región de Murcia,
+958,Villaverde del Río,7 700,Sevilla,Andalucía
+959,Cobeña,7 698,Comunidad de Madrid,
+960,Medio Cudeyo,7 696,Cantabria,
+961,Sampedor,7 693,Barcelona,Cataluña
+962,Valverde de la Virgen,7 687,León,Castilla y León
+963,Villacarlos,7 670,Islas Baleares,
+964,Firgas,7 669,Las Palmas,Canarias
+965,Astigarraga,7 666,Guipúzcoa,País Vasco
+966,Castro del Río,7 665,Córdoba,Andalucía
+967,Cee,7 660,La Coruña,Galicia
+968,Santa Margarita y Monjós,7 650,Barcelona,Cataluña
+969,Cercedilla,7 648,Comunidad de Madrid,
+970,Foyos,7 641,Valencia,Comunidad Valenciana
+971,Azuaga,7 624,Badajoz,Extremadura
+972,Oroso,7 622,La Coruña,Galicia
+973,Sotomayor,7 603,Pontevedra,Galicia
+974,Guisona,7 603,Lérida,Cataluña
+975,Valmaseda,7 593,Vizcaya,País Vasco
+976,Alsasua,7 590,Navarra,
+977,Moratalla,7 588,Región de Murcia,
+978,Rocafort,7 570,Valencia,Comunidad Valenciana
+979,Huarte,7 562,Navarra,
+980,Bornos,7 559,Cádiz,Andalucía
+981,Carbajosa de la Sagrada,7 555,Salamanca,Castilla y León
+982,Quintanar del Rey,7 554,Cuenca,Castilla-La Mancha
+983,Mellid,7 553,La Coruña,Galicia
+984,Santa María del Camino,7 552,Islas Baleares,
+985,Berrioplano,7 541,Navarra,
+986,Villamayor,7 539,Salamanca,Castilla y León
+987,Puentedeume,7 520,La Coruña,Galicia
+988,Cox,7 513,Alicante,Comunidad Valenciana
+989,La Aldea de San Nicolás,7 506,Las Palmas,Canarias
+990,Almácera,7 504,Valencia,Comunidad Valenciana
+991,Collado Mediano,7 490,Comunidad de Madrid,
+992,Pedro Muñoz,7 480,Ciudad Real,Castilla-La Mancha
+993,La Rambla,7 473,Córdoba,Andalucía
+994,Villa de Otura,7 466,Granada,Andalucía
+995,Vacarisas,7 460,Barcelona,Cataluña
+996,Montblanch,7 456,Tarragona,Cataluña
+997,Berango,7 454,Vizcaya,País Vasco
+998,Begas,7 432,Barcelona,Cataluña
+999,Albuñol,7 391,Granada,Andalucía
+1000,Mojácar,7 386,Almería,Andalucía
+1001,Bigastro,7 361,Alicante,Comunidad Valenciana
+1002,Musques,7 342,Vizcaya,País Vasco
+1003,La Ametlla de Mar,7 325,Tarragona,Cataluña
+1004,Benacazón,7 324,Sevilla,Andalucía
+1005,Ondara,7 308,Alicante,Comunidad Valenciana
+1006,Breña Alta,7 305,Santa Cruz de Tenerife,Canarias
+1007,Elorrio,7 292,Vizcaya,País Vasco
+1008,Buñola,7 286,Islas Baleares,
+1009,Talayuela,7 273,Cáceres,Extremadura
+1010,Villa del Prado,7 273,Comunidad de Madrid,
+1011,Canet de Berenguer,7 265,Valencia,Comunidad Valenciana
+1012,Turís,7 259,Valencia,Comunidad Valenciana
+1013,Alagón,7 257,Zaragoza,Aragón
+1014,Posadas,7 256,Córdoba,Andalucía
+1015,Bañeres,7 255,Alicante,Comunidad Valenciana
+1016,Dúrcal,7 233,Granada,Andalucía
+1017,Huéscar,7 220,Granada,Andalucía
+1018,Fuentes de Andalucía,7 217,Sevilla,Andalucía
+1019,Andorra,7 214,Teruel,Aragón
+1020,Bujalance,7 186,Córdoba,Andalucía
+1021,Fuente el Saz de Jarama,7 182,Comunidad de Madrid,
+1022,Benalup-Casas Viejas,7 164,Cádiz,Andalucía
+1023,Alcalá de Chivert,7 160,Castellón,Comunidad Valenciana
+1024,Arechavaleta,7 155,Guipúzcoa,País Vasco
+1025,Lequeitio,7 143,Vizcaya,País Vasco
+1026,Torreperogil,7 108,Jaén,Andalucía
+1027,Burguillos,7 098,Sevilla,Andalucía
+1028,Derio,7 071,Vizcaya,País Vasco
+1029,Cazorla,7 067,Jaén,Andalucía
+1030,Nuevo Baztán,7 050,Comunidad de Madrid,
+1031,Jijona,7 032,Alicante,Comunidad Valenciana
+1032,San Luis,7 019,Islas Baleares,
+1033,Montellano,7 003,Sevilla,Andalucía
+1034,Trebujena,7 000,Cádiz,Andalucía
+1035,Vandellós y Hospitalet del Infante,6 984,Tarragona,Cataluña
+1036,Argés,6 961,Toledo,Castilla-La Mancha
+1037,Bergondo,6 951,La Coruña,Galicia
+1038,Miraflores de la Sierra,6 945,Comunidad de Madrid,
+1039,Puerto Serrano,6 929,Cádiz,Andalucía
+1040,Negreira,6 901,La Coruña,Galicia
+1041,Villanueva de Castellón,6 891,Valencia,Comunidad Valenciana
+1042,Valdoviño,6 889,La Coruña,Galicia
+1043,Argamasilla de Alba,6 888,Ciudad Real,Castilla-La Mancha
+1044,Villa del Río,6 882,Córdoba,Andalucía
+1045,Almacellas,6 847,Lérida,Cataluña
+1046,Vimianzo,6 840,La Coruña,Galicia
+1047,San Juan de Labritja,6 838,Islas Baleares,
+1048,Sallent de Llobregat,6 835,Barcelona,Cataluña
+1049,Tauste,6 828,Zaragoza,Aragón
+1050,Piloña,6 822,Principado de Asturias,
+1051,Cubas de la Sagra,6 817,Comunidad de Madrid,
+1052,Villanueva del Ariscal,6 814,Sevilla,Andalucía
+1053,Guadalix de la Sierra,6 814,Comunidad de Madrid,
+1054,Riudoms,6 810,Tarragona,Cataluña
+1055,Taradell,6 809,Barcelona,Cataluña
+1056,Paradas,6 798,Sevilla,Andalucía
+1057,San Miguel de Salinas,6 798,Alicante,Comunidad Valenciana
+1058,Constantí,6 788,Tarragona,Cataluña
+1059,Campo Real,6 781,Comunidad de Madrid,
+1060,San Clemente,6 776,Cuenca,Castilla-La Mancha
+1061,Algarrobo,6 773,Málaga,Andalucía
+1062,Tinajo,6 759,Las Palmas,Canarias
+1063,Blanca,6 756,Región de Murcia,
+1064,Miño,6 753,La Coruña,Galicia
+1065,Museros,6 741,Valencia,Comunidad Valenciana
+1066,Güeñes,6 740,Vizcaya,País Vasco
+1067,Villarreal de Urrechua,6 739,Guipúzcoa,País Vasco
+1068,Aguilar de Campoo,6 733,Palencia,Castilla y León
+1069,Llissá de Vall,6 714,Barcelona,Cataluña
+1070,San Vicente de Montalt,6 701,Barcelona,Cataluña
+1071,Carral,6 700,La Coruña,Galicia
+1072,Teyá,6 696,Barcelona,Cataluña
+1073,Moyá,6 690,Barcelona,Cataluña
+1074,Roda de Ter,6 680,Barcelona,Cataluña
+1075,Jimena de la Frontera,6 675,Cádiz,Andalucía
+1076,Casarrubios del Monte,6 671,Toledo,Castilla-La Mancha
+1077,Guareña,6 668,Badajoz,Extremadura
+1078,Jaraíz de la Vera,6 664,Cáceres,Extremadura
+1079,Pereiro de Aguiar,6 647,Orense,Galicia
+1080,Las Pedroñeras,6 638,Cuenca,Castilla-La Mancha
+1081,Fuente del Maestre,6 626,Badajoz,Extremadura
+1082,Sils,6 624,Gerona,Cataluña
+1083,Villanueva de la Torre,6 603,Guadalajara,Castilla-La Mancha
+1084,Almenara,6 591,Castellón,Comunidad Valenciana
+1085,Marmolejo,6 586,Jaén,Andalucía
+1086,Moraleja,6 585,Cáceres,Extremadura
+1087,Hinojosa del Duque,6 579,Córdoba,Andalucía
+1088,San Antonio Vilamajor,6 577,Barcelona,Cataluña
+1089,Villares de la Reina,6 576,Salamanca,Castilla y León
+1090,Vélez-Rubio,6 558,Almería,Andalucía
+1091,Herrera,6 544,Sevilla,Andalucía
+1092,Almensilla,6 537,Sevilla,Andalucía
+1093,Arbucias,6 531,Gerona,Cataluña
+1094,Cedeira,6 529,La Coruña,Galicia
+1095,San Felíu de Codinas,6 527,Barcelona,Cataluña
+1096,Gata de Gorgos,6 515,Alicante,Comunidad Valenciana
+1097,Arenas de San Pedro,6 464,Ávila,Castilla y León
+1098,Villamuriel de Cerrato,6 459,Palencia,Castilla y León
+1099,El Rosal,6 431,Pontevedra,Galicia
+1100,San Adrián,6 429,Navarra,
+1101,Ulldecona,6 417,Tarragona,Cataluña
+1102,La Muela,6 416,Zaragoza,Aragón
+1103,La Puebla de Alfindén,6 414,Zaragoza,Aragón
+1104,Briviesca,6 414,Burgos,Castilla y León
+1105,Pedrezuela,6 400,Comunidad de Madrid,
+1106,Alpicat,6 394,Lérida,Cataluña
+1107,Allariz,6 378,Orense,Galicia
+1108,Lloseta,6 378,Islas Baleares,
+1109,Cangas de Onís,6 362,Principado de Asturias,
+1110,Olula del Río,6 354,Almería,Andalucía
+1111,Usúrbil,6 345,Guipúzcoa,País Vasco
+1112,Zaratán,6 342,Valladolid,Castilla y León
+1113,María de Huerva,6 335,Zaragoza,Aragón
+1114,Íscar,6 326,Valladolid,Castilla y León
+1115,Venta de Baños,6 284,Palencia,Castilla y León
+1116,Santo Domingo de la Calzada,6 283,La Rioja,
+1117,Becerril de la Sierra,6 277,Comunidad de Madrid,
+1118,Torrellas de Llobregat,6 225,Barcelona,Cataluña
+1119,Abanilla,6 216,Región de Murcia,
+1120,Borjas Blancas,6 215,Lérida,Cataluña
+1121,Torrejón del Rey,6 210,Guadalajara,Castilla-La Mancha
+1122,Tosa de Mar,6 206,Gerona,Cataluña
+1123,Gójar,6 203,Granada,Andalucía
+1124,Urnieta,6 200,Guipúzcoa,País Vasco
+1125,Yeles,6 176,Toledo,Castilla-La Mancha
+1126,Polanco,6 175,Cantabria,
+1127,Algaida,6 170,Islas Baleares,
+1128,Viator,6 160,Almería,Andalucía
+1129,Navás,6 150,Barcelona,Cataluña
+1130,Tarazona de la Mancha,6 138,Albacete,Castilla-La Mancha
+1131,Ares,6 132,La Coruña,Galicia
+1132,Orio,6 125,Guipúzcoa,País Vasco
+1133,Motilla del Palancar,6 119,Cuenca,Castilla-La Mancha
+1134,Navarclés,6 109,Barcelona,Cataluña
+1135,Mota del Cuervo,6 108,Cuenca,Castilla-La Mancha
+1136,Albaida,6 102,Valencia,Comunidad Valenciana
+1137,Bonares,6 101,Huelva,Andalucía
+1138,Calamonte,6 095,Badajoz,Extremadura
+1139,Outes,6 082,La Coruña,Galicia
+1140,Los Villares,6 079,Jaén,Andalucía
+1141,Peñaranda de Bracamonte,6 079,Salamanca,Castilla y León
+1142,Górliz,6 058,Vizcaya,País Vasco
+1143,Aznalcóllar,6 057,Sevilla,Andalucía
+1144,Suria,6 046,Barcelona,Cataluña
+1145,Aldeamayor de San Martín,6 035,Valladolid,Castilla y León
+1146,Méntrida,6 019,Toledo,Castilla-La Mancha
+1147,Lazcano,6 013,Guipúzcoa,País Vasco
+1148,Lezo,6 008,Guipúzcoa,País Vasco
+1149,Artés,5 994,Barcelona,Cataluña
+1150,Peralta,5 979,Navarra,
+1151,Porcuna,5 975,Jaén,Andalucía
+1152,El Viso de San Juan,5 970,Toledo,Castilla-La Mancha
+1153,Breña Baja,5 963,Santa Cruz de Tenerife,Canarias
+1154,Guadasuar,5 961,Valencia,Comunidad Valenciana
+1155,Tremp,5 961,Lérida,Cataluña
+1156,Vilaboa,5 950,Pontevedra,Galicia
+1157,Mercadal,5 939,Islas Baleares,
+1158,Jaraco,5 923,Valencia,Comunidad Valenciana
+1159,La Canonja,5 922,Tarragona,Cataluña
+1160,San Hilario Sacalm,5 913,Gerona,Cataluña
+1161,Dosrius,5 910,Barcelona,Cataluña
+1162,Alaró,5 909,Islas Baleares,
+1163,Arzúa,5 901,La Coruña,Galicia
+1164,Anglés,5 884,Gerona,Cataluña
+1165,Medina de Pomar,5 866,Burgos,Castilla y León
+1166,Borriol,5 865,Castellón,Comunidad Valenciana
+1167,Palazuelos de Eresma,5 830,Segovia,Castilla y León
+1168,Villabona,5 826,Guipúzcoa,País Vasco
+1169,Membrilla,5 825,Ciudad Real,Castilla-La Mancha
+1170,Puebla de la Calzada,5 812,Badajoz,Extremadura
+1171,Argamasilla de Calatrava,5 801,Ciudad Real,Castilla-La Mancha
+1172,Cartes,5 800,Cantabria,
+1173,San Pol de Mar,5 791,Barcelona,Cataluña
+1174,Almodóvar del Campo,5 788,Ciudad Real,Castilla-La Mancha
+1175,Coristanco,5 779,La Coruña,Galicia
+1176,Esquivias,5 778,Toledo,Castilla-La Mancha
+1177,Viella y Medio Arán,5 765,Lérida,Cataluña
+1178,Constantina,5 742,Sevilla,Andalucía
+1179,Isla Mayor,5 741,Sevilla,Andalucía
+1180,Porreras,5 741,Islas Baleares,
+1181,La Selva del Campo,5 736,Tarragona,Cataluña
+1182,Librilla,5 729,Región de Murcia,
+1183,Ugena,5 723,Toledo,Castilla-La Mancha
+1184,Los Yébenes,5 717,Toledo,Castilla-La Mancha
+1185,Benigánim,5 716,Valencia,Comunidad Valenciana
+1186,Arbós,5 713,Tarragona,Cataluña
+1187,Arafo,5 712,Santa Cruz de Tenerife,Canarias
+1188,Órgiva,5 709,Granada,Andalucía
+1189,Celanova,5 709,Orense,Galicia
+1190,Valga,5 704,Pontevedra,Galicia
+1191,Altafulla,5 693,Tarragona,Cataluña
+1192,Alfacar,5 688,Granada,Andalucía
+1193,Cerdedo-Cotobad,5 687,Pontevedra,Galicia
+1194,Chauchina,5 679,Granada,Andalucía
+1195,San Ciprián de Viñas,5 675,Orense,Galicia
+1196,Chinchón,5 664,Comunidad de Madrid,
+1197,Santa Cristina de Aro,5 664,Gerona,Cataluña
+1198,Alhama de Granada,5 655,Granada,Andalucía
+1199,Guardo,5 653,Palencia,Castilla y León
+1200,Llerena,5 650,Badajoz,Extremadura
+1201,Mora de Ebro,5 649,Tarragona,Cataluña
+1202,Vilafan,5 642,Gerona,Cataluña
+1203,Prado del Rey,5 634,Cádiz,Andalucía
+1204,Torreblanca,5 630,Castellón,Comunidad Valenciana
+1205,Salteras,5 627,Sevilla,Andalucía
+1206,Benejúzar,5 625,Alicante,Comunidad Valenciana
+1207,Cenia,5 623,Tarragona,Cataluña
+1208,Montehermoso,5 619,Cáceres,Extremadura
+1209,Vilanova del Vallés,5 600,Barcelona,Cataluña
+1210,Abegondo,5 584,La Coruña,Galicia
+1211,Bechí,5 580,Castellón,Comunidad Valenciana
+1212,Agaete,5 568,Las Palmas,Canarias
+1213,Entrambasaguas,5 568,Cantabria,
+1214,Castuera,5 567,Badajoz,Extremadura
+1215,Arroyo de la Luz,5 565,Cáceres,Extremadura
+1216,La Guancha,5 562,Santa Cruz de Tenerife,Canarias
+1217,Huelma,5 559,Jaén,Andalucía
+1218,Pulianas,5 559,Granada,Andalucía
+1219,Puentecaldelas,5 553,Pontevedra,Galicia
+1220,Ribadesella,5 548,Principado de Asturias,
+1221,Agramunt,5 516,Lérida,Cataluña
+1222,Haría,5 507,Las Palmas,Canarias
+1223,Algodonales,5 498,Cádiz,Andalucía
+1224,Simancas,5 493,Valladolid,Castilla y León
+1225,Celrá,5 486,Gerona,Cataluña
+1226,Guijuelo,5 484,Salamanca,Castilla y León
+1227,Ortigueira,5 477,La Coruña,Galicia
+1228,Los Montesinos,5 477,Alicante,Comunidad Valenciana
+1229,Urdúliz,5 469,Vizcaya,País Vasco
+1230,Numancia de la Sagra,5 455,Toledo,Castilla-La Mancha
+1231,Moraleja de Enmedio,5 453,Comunidad de Madrid,
+1232,Cájar,5 447,Granada,Andalucía
+1233,Aceuchal,5 446,Badajoz,Extremadura
+1234,Paterna de Rivera,5 441,Cádiz,Andalucía
+1235,Alameda,5 434,Málaga,Andalucía
+1236,Almazán,5 426,Soria,Castilla y León
+1237,Capellades,5 417,Barcelona,Cataluña
+1238,Mollina,5 413,Málaga,Andalucía
+1239,Sariegos,5 413,León,Castilla y León
+1240,Puenteceso,5 399,La Coruña,Galicia
+1241,Yepes,5 397,Toledo,Castilla-La Mancha
+1242,Deva,5 393,Guipúzcoa,País Vasco
+1243,Macael,5 381,Almería,Andalucía
+1244,Montefrío,5 376,Granada,Andalucía
+1245,Las Navas del Marqués,5 362,Ávila,Castilla y León
+1246,Alcudia de Crespins,5 361,Valencia,Comunidad Valenciana
+1247,Villanueva del Trabuco,5 360,Málaga,Andalucía
+1248,Cigales,5 360,Valladolid,Castilla y León
+1249,Otero de Rey,5 359,Lugo,Galicia
+1250,Arjona,5 349,Jaén,Andalucía
+1251,Polop,5 339,Alicante,Comunidad Valenciana
+1252,Sarriá de Ter,5 327,Gerona,Cataluña
+1253,Peal de Becerro,5 325,Jaén,Andalucía
+1254,Nueva Carteya,5 317,Córdoba,Andalucía
+1255,Motrico,5 313,Guipúzcoa,País Vasco
+1256,Gualchos,5 308,Granada,Andalucía
+1257,Casariche,5 305,Sevilla,Andalucía
+1258,Talavera la Real,5 282,Badajoz,Extremadura
+1259,Alcover,5 278,Tarragona,Cataluña
+1260,Carranque,5 274,Toledo,Castilla-La Mancha
+1261,San Vicente de Alcántara,5 262,Badajoz,Extremadura
+1262,Meaño,5 258,Pontevedra,Galicia
+1263,Malpica de Bergantiños,5 241,La Coruña,Galicia
+1264,Valencia de Alcántara,5 236,Cáceres,Extremadura
+1265,Esporlas,5 236,Islas Baleares,
+1266,Mugardos,5 228,La Coruña,Galicia
+1267,Ayora,5 223,Valencia,Comunidad Valenciana
+1268,Yebes,5 220,Guadalajara,Castilla-La Mancha
+1269,Corral de Almaguer,5 219,Toledo,Castilla-La Mancha
+1270,Canyellas,5 218,Barcelona,Cataluña
+1271,Añover de Tajo,5 215,Toledo,Castilla-La Mancha
+1272,Parres,5 208,Principado de Asturias,
+1273,Alcalá de los Gazules,5 205,Cádiz,Andalucía
+1274,Oza-Cesuras,5 203,La Coruña,Galicia
+1275,Miengo,5 199,Cantabria,
+1276,Guitiriz,5 194,Lugo,Galicia
+1277,Ribadumia,5 189,Pontevedra,Galicia
+1278,Nava,5 186,Principado de Asturias,
+1279,Valencia de Don Juan,5 185,León,Castilla y León
+1280,La Granja de San Ildefonso,5 183,Segovia,Castilla y León
+1281,Bescanó,5 178,Gerona,Cataluña
+1282,La Guardia de Jaén,5 175,Jaén,Andalucía
+1283,Peñafiel,5 172,Valladolid,Castilla y León
+1284,El Burgo de Osma,5 166,Soria,Castilla y León
+1285,Valverde,5 165,Santa Cruz de Tenerife,Canarias
+1286,Iznalloz,5 161,Granada,Andalucía
+1287,Camariñas,5 151,La Coruña,Galicia
+1288,Nambroca,5 151,Toledo,Castilla-La Mancha
+1289,Bellpuig,5 150,Lérida,Cataluña
+1290,Marina de Cudeyo,5 148,Cantabria,
+1291,La Campana,5 137,Sevilla,Andalucía
+1292,Pioz,5 131,Guadalajara,Castilla-La Mancha
+1293,Catllar,5 115,Tarragona,Cataluña
+1294,Moral de Calatrava,5 109,Ciudad Real,Castilla-La Mancha
+1295,Castilblanco de los Arroyos,5 107,Sevilla,Andalucía
+1296,Pedrera,5 104,Sevilla,Andalucía
+1297,Vergel,5 101,Alicante,Comunidad Valenciana
+1298,La Cañiza,5 090,Pontevedra,Galicia
+1299,Salvatierra,5 085,Álava,País Vasco
+1300,Villa de Cruces,5 082,Pontevedra,Galicia
+1301,Nerva,5 081,Huelva,Andalucía
+1302,Borja,5 076,Zaragoza,Aragón
+1303,Mocejón,5 069,Toledo,Castilla-La Mancha
+1304,Agost,5 067,Alicante,Comunidad Valenciana
+1305,Alburquerque,5 063,Badajoz,Extremadura
+1306,Alba de Tormes,5 058,Salamanca,Castilla y León
+1307,Noreña,5 058,Principado de Asturias,
+1308,Cerceda,5 058,La Coruña,Galicia
+1309,Ferrerías,5 051,Islas Baleares,
+1310,Las Salinas,5 044,Islas Baleares,
+1311,Marquina-Jeméin,5 037,Vizcaya,País Vasco
+1312,Vedra,5 019,La Coruña,Galicia
+1313,Quesada,5 015,Jaén,Andalucía
+1314,Castro de Rey,5 015,Lugo,Galicia
+1315,Candeleda,5 001,Ávila,Castilla y León
