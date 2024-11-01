@@ -12,13 +12,14 @@ from tabla_mun_equipo_pob_asist import func_mun_equipo_pob_asist
 
 df_mun_x_team = func_mun_equipo_pob_asist()
 
+# Obtener Latitud y Longitud (A VECES NO FUNCIONA)
 def obtener_coordenadas(municipio):
     for attempt in range(3):  # Try up to 3 times
         try:
             print(f"Fetching coordinates for {municipio} (Attempt {attempt+1})")
             url = f"https://nominatim.openstreetmap.org/search?q={municipio},+spain&format=json"
             response = requests.get(url)
-            time.sleep(1.5)  # Slightly longer delay to respect rate limits
+            time.sleep(2)  # Recommended delay to respect rate limits
             if response.status_code == 200 and response.json():
                 result = response.json()[0]
                 return float(result['lat']), float(result['lon'])
@@ -26,59 +27,56 @@ def obtener_coordenadas(municipio):
             print(f"Error fetching coordinates for {municipio} on attempt {attempt+1}: {e}")
     return None, None  # Return None if all attempts fail
 
+# Normalize 'Municipio' column to lower case and strip any whitespace
 df_mun_x_team['Municipio'] = df_mun_x_team['Municipio'].str.lower().str.strip()
 
 # Apply the function and fetch coordinates
-df_mun_x_team['lat'], df_mun_x_team['lon'] = zip(*df_mun_x_team['Municipio'].apply(obtener_coordenadas))
+df_mun_x_team['Latitude'], df_mun_x_team['Longitude'] = zip(*df_mun_x_team['Municipio'].apply(obtener_coordenadas))
 
 # Check for missing coordinates
-missing_coords = df_mun_x_team[df_mun_x_team['lat'].isna()]
+missing_coords = df_mun_x_team[df_mun_x_team['Latitude'].isna()]
 if not missing_coords.empty:
     print("Municipios sin coordenadas:")
     print(missing_coords[['Municipio', 'Equipo']])
 
-# Remove rows with missing coordinates to avoid issues
-df_mun_x_team = df_mun_x_team.dropna(subset=['lat', 'lon'])
-
+# Create geoJSON for mapping with Plotly
+my_geojson = []
+for _, row in df_mun_x_team.dropna(subset=['Latitude', 'Longitude']).iterrows():
+    feature = {
+        "type": "Feature",
+        "properties": {
+            "Municipio": row['Municipio'],
+            "attendance_pct": (row['Asistencia_media_estadio'] / row['Poblacion']) * 100
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [row['Longitude'], row['Latitude']]
+        },
+        "id": row['Municipio']        
+    }
+    my_geojson.append(feature)
+# NECESITA MAS INFORMACION PARA FORMAR EL POLYGON
+# https://api-features.ign.es/collections/administrativeboundary/items?limit=1000 
+# Calculate attendance percentage
 df_mun_x_team['attendance_pct'] = (df_mun_x_team['Asistencia_media_estadio'] / df_mun_x_team['Poblacion']) * 100
 
 # NUEVO MAPA
+# https://plotly.com/python/tile-county-choropleth/
 fig = px.choropleth_map(
     df_mun_x_team,
-    geojson=df_mun_x_team['lat'],df_mun_x_team['lon']
-                        )
-# https://plotly.com/python/tile-county-choropleth/
+    geojson=my_geojson,
+    locations='Municipio',
+    color='attendance_pct',
+    color_continuous_scale="Viridis",
+    range_color=(0, 6),
+    map_style="carto-positron",
+    zoom=6,
+    center = {"lat": 39.326069, "lon":  -4.837979},
+    opacity=0.5,
+    labels={'attendance_pct':'Attendance rate'})
 
-# MAPA ORIGINAL
-# Custom red color scale for attendance percentage
-custom_red_scale = [
-    [0, "#DF1B3F"],  # Darker red
-    [1, "#FF9999"]   # Lighter red
-]
-
-fig = px.scatter_mapbox(
-    df_mun_x_team,
-    lat='lat',
-    lon='lon',
-    size='Asistencia_media_estadio',  
-    color='attendance_pct',  
-    color_continuous_scale=custom_red_scale,
-    size_max=15,  # Reduce maximum size of circles
-    hover_name='Equipo',
-    hover_data={
-        'Poblacion': True, 
-        'Asistencia_media_estadio': True, 
-        'attendance_pct': ':.2f',
-        'lat': False,  
-        'lon': False
-    },
-    text='Municipio', 
-    zoom=5,
-    center=dict(lat=40.0, lon=-3.7),
-    title="Asistencia Media y % de la Población en Municipios de Equipos",
-    mapbox_style="carto-positron"
-)
-
-fig.update_traces(textposition="top right")
+fig.update_layout(
+    margin={"r":0,"t":0,"l":0,"b":0},
+    title_text="Municipal Attendance Rates in Spain")
 
 fig.show()
