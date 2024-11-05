@@ -9,7 +9,6 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../reference_tables'))
 
 # Importar los DataFrames
 from tabla_mun_equipo_pob_asist import func_mun_equipo_pob_asist
-
 df_mun_x_team = func_mun_equipo_pob_asist()
 
 # Obtener Latitud y Longitud (A VECES NO FUNCIONA)
@@ -49,14 +48,14 @@ for _, row in df_mun_x_team.dropna(subset=['Latitude', 'Longitude']).iterrows():
             "attendance_pct": (row['Asistencia_media_estadio'] / row['Poblacion']) * 100
         },
         "geometry": {
-            "type": "Polygon",
+            "type": "MultiPolygon",
             "coordinates": [row['Longitude'], row['Latitude']]
         },
         "id": row['Municipio']        
     }
     my_geojson.append(feature)
 # NECESITA MAS INFORMACION PARA FORMAR EL POLYGON
-# https://api-features.ign.es/collections/administrativeboundary/items?limit=1000 
+# https://api-features.ign.es/collections/administrativeunit/items?offset=0&limit=100
 # Calculate attendance percentage
 df_mun_x_team['attendance_pct'] = (df_mun_x_team['Asistencia_media_estadio'] / df_mun_x_team['Poblacion']) * 100
 
