@@ -20,6 +20,8 @@ def func_pob_mun():
     # Limpiar y convertir la población a entero
     df_1['Poblacion'] = df_1['Poblacion'].str.replace(' ', '').astype(int)
 
+    df_1.to_excel('tabla_pob_mun.xlsx', index=False)
+
     return df_1
 
 if __name__ == "__main__":
