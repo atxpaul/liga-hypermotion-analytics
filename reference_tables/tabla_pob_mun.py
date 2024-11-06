@@ -20,8 +20,18 @@ def func_pob_mun():
     # Limpiar y convertir la población a entero
     df_1['Poblacion'] = df_1['Poblacion'].str.replace(' ', '').astype(int)
 
-    df_1.to_excel('tabla_pob_mun.xlsx', index=False)
+    # Generar Excel para comprobación de nombres de municipios
+    # df_1.to_excel('tabla_pob_mun.xlsx', index=False)
 
+    # Renombrar municipios que no están correctamente nombrados para que coincidan con tabla_mun_equipo
+    # Agregar según sea necesario
+    renombrar_municipios = {
+        'tenerife': 'santa cruz de tenerife',
+        'castellon': 'castelló de la plana',
+        'valencia': 'valència',
+        'elche': 'elx/elche'}
+    
+    df_1['Municipio'] = df_1['Municipio'].replace(renombrar_municipios)
     return df_1
 
 if __name__ == "__main__":

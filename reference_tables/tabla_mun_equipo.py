@@ -24,8 +24,9 @@ def func_mun_equipo():
     # Agregar según sea necesario
     renombrar_municipios = {
         'tenerife': 'santa cruz de tenerife',
-        'castellon': 'castellón de la plana'
-    }
+        'castellon': 'castelló de la plana',
+        'valencia': 'valència',
+        'elche': 'elx/elche'}
     
     df_2['Municipio'] = df_2['Municipio'].replace(renombrar_municipios)
 

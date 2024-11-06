@@ -8,16 +8,17 @@ import re
 # Agregar la carpeta 'reference_tables' al sistema de rutas
 sys.path.append(os.path.join(os.path.dirname(__file__), '../reference_tables'))
 
+# Importar los DataFrames
+from tabla_mun_equipo import func_mun_equipo
+df_mun_equipo = func_mun_equipo()
 
-names = ['almería', 'cádiz']
+# List of names from your DataFrame
+names = df_mun_equipo['Municipio']
 
 # Function to fetch GeoJSON data for each name
 async def fetch_geojson(page, names_to_find):
-    base_url = "https://api-features.ign.es/collections/administrativeunit/items?limit=100"
+    base_url = "https://api-features.ign.es/collections/administrativeunit/items?offset=0&limit=10"
     results = {}  # Dictionary to store GeoJSON data for each name
-
-    # Convert names_to_find to a list in case it's a Series
-    names_to_find = list(names_to_find)
 
     # Navigate to the base URL
     await page.goto(base_url)
@@ -26,20 +27,21 @@ async def fetch_geojson(page, names_to_find):
     while names_to_find:
         print(f"Searching on page... Names left to find: {names_to_find}")
 
-        # Iterate over a copy of names_to_find to modify the list safely while iterating
-        for name in names_to_find[:]:
-            
-            print(f"Searching for: {name}")  # Debugging: print the pattern
+        # Get all <tr> elements in the table body
+        rows = page.locator("table tbody tr")
 
-            # Locate the <td> element with the exact match
-            name_found = page.locator(f'td[data-label="nameunit"]:text-matches("\b{name}\b", "i")').first
-            
-            # If found, proceed to get the ID link and fetch GeoJSON
-            if await name_found.count() > 0:
-                print(f"{name} found!")
+        # Iterate over each row in the table
+        for i in range(await rows.count()):
+            # Get the name in lowercase
+            name_unit = await rows.nth(i).locator('td[data-label="nameunit"]').inner_text()
+            name_unit_lower = name_unit.strip().lower()
 
-                # Find the ID link in the next sibling
-                id_link = name_found.locator('..').locator('td[data-label="id"] a').first
+            # Check if this name matches any in names_to_find
+            if name_unit_lower in names_to_find:
+                print(f"Exact match found for {name_unit}!")
+
+                # Find the ID link in the same row
+                id_link = rows.nth(i).locator('td[data-label="id"] a').first
                 id_url = await id_link.get_attribute('href')
                 await page.goto(id_url)  # Go to ID URL page
 
@@ -48,16 +50,17 @@ async def fetch_geojson(page, names_to_find):
                 geojson_url = await geojson_link.get_attribute('href')
                 await page.goto(geojson_url)
                 geojson_data = await page.evaluate("document.body.innerText")
-                results[name] = json.loads(geojson_data)  # Store GeoJSON data
-                names_to_find.remove(name)  # Remove found name from the list
+                results[name_unit] = json.loads(geojson_data)  # Store GeoJSON data
+                names_to_find.remove(name_unit_lower)  # Remove found name from the list
                 await page.goto(base_url)  # Return to base URL to continue with the next names
+                break  # Stop processing this row once we have a match
 
         # If no names were found and the "Siguiente" button exists, click it to go to the next page
         if names_to_find:
             next_button = page.locator('a[role="button"]:has-text("Siguiente")')
             if await next_button.count() > 0:
                 await next_button.click()
-                await page.wait_for_timeout(1000)  # Wait for the page to load
+                await page.wait_for_load_state()  # Wait for the page to load
             else:
                 print("Reached the last page, no more pages to search.")
                 break
