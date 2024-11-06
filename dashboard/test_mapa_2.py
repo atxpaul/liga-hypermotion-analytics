@@ -56,6 +56,7 @@ for _, row in df_mun_x_team.dropna(subset=['Latitude', 'Longitude']).iterrows():
     my_geojson.append(feature)
 # NECESITA MAS INFORMACION PARA FORMAR EL POLYGON
 # https://api-features.ign.es/collections/administrativeunit/items?offset=0&limit=100
+
 # Calculate attendance percentage
 df_mun_x_team['attendance_pct'] = (df_mun_x_team['Asistencia_media_estadio'] / df_mun_x_team['Poblacion']) * 100
 

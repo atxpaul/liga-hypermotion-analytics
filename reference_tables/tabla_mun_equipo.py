@@ -15,10 +15,19 @@ def func_mun_equipo():
 
     # Limpiar columnas de tipo objeto
     for col in df_2.select_dtypes(include='object').columns:
-        df_2[col] = df_2[col].str.lower().str.strip()
-
+        df_2[col] = df_2[col].str.lower().str.strip()    
+    
     # Renombrar columnas
     df_2 = df_2.rename(columns={'UBICACIÓN': 'Municipio', 'CLUB': 'Equipo'}) 
+    
+    # Renombrar municipios que no están correctamente nombrados
+    # Agregar según sea necesario
+    renombrar_municipios = {
+        'tenerife': 'santa cruz de tenerife',
+        'castellon': 'castellón de la plana'
+    }
+    
+    df_2['Municipio'] = df_2['Municipio'].replace(renombrar_municipios)
 
     return df_2
 
