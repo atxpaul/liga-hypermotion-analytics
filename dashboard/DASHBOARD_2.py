@@ -1,71 +1,74 @@
 import sys
 import os
-import requests
-import time
 import plotly.express as px
+import json
+import pandas as pd
+import geopandas as gpd
 
 # Agregar la carpeta 'reference_tables' al sistema de rutas
 sys.path.append(os.path.join(os.path.dirname(__file__), '../reference_tables'))
 
-# Importar los DataFrames
+# Importar el df con todas las columnas
 from tabla_mun_equipo_pob_asist import func_mun_equipo_pob_asist
+df_para_mapa = func_mun_equipo_pob_asist()
 
-df_mun_x_team = func_mun_equipo_pob_asist()
+# Calcular el porcentaje de asistencia y añadir columna al df
+df_para_mapa['asist_pct'] = (df_para_mapa['Asistencia_media_estadio'] / df_para_mapa['Poblacion']) * 100
 
-# Def obtener coordenadas(a veces no funciona)
-def obtener_coordenadas(municipio):
-    try:
-        url = f"https://nominatim.openstreetmap.org/search?q={municipio},+spain&format=json"
-        response = requests.get(url)
-        time.sleep(1) 
-        if response.status_code == 200 and response.json():
-            result = response.json()[0]
-            return float(result['lat']), float(result['lon'])
-    except Exception as e:
-        print(f"Error obteniendo coordenadas para {municipio}: {e}")
-    return None, None
+# Leer archivo JSON y asignarlo a una variable
+with open('../scrap_results/geojson_data.json', 'r', encoding='utf=8') as file:
+   geojson_data = json.load(file)
+# Crear nueva estructura con "feature" alrededor de cada municipio
+new_gejson_data = {key: {"features": value} for key, value in geojson_data.items()}
+# Guardar el nuevo archivo JSON
+with open('geojson_data_updated.json', 'w', encoding='utf-8') as file:
+    json.dump(new_gejson_data, file, ensure_ascii=False, indent=4)
+# Leer nuevo archivo JSON y asignarlo a variable
+with open('../dashboard/geojson_data_updated.json', 'r', encoding='utf=8') as file:
+    geojson_data_updated = json.load(file)
 
-df_mun_x_team['Municipio'] = df_mun_x_team['Municipio'].str.lower().str.strip()
+# Extraer propiedades y geometría para crear DataFrame
+data = []
+geojson_coord = []
 
-df_mun_x_team['lat'], df_mun_x_team['lon'] = zip(*df_mun_x_team['Municipio'].apply(obtener_coordenadas))
+# Desempaquetar cada feature dentro de geojson_data_updated
+for key, municipality_data in geojson_data_updated.items():
+    # Acceder a 'features' de cada municipio
+    feature = municipality_data["features"]
+    # Añadir el "id" como el nombre del municipio
+    feature["id"] = feature["properties"]["nameunit"]
 
-missing_coords = df_mun_x_team[df_mun_x_team['lat'].isna()]
-if not missing_coords.empty:
-    print("Municipios sin coordenadas:")
-    print(missing_coords[['Municipio', 'Equipo']])
+# Agregar properties a la lista de datos y geometry a las coordenadas
+    data.append(feature["properties"])
+    geojson_coord.append(feature["geometry"])
 
-df_mun_x_team = df_mun_x_team.dropna(subset=['lat', 'lon'])
+# Desempaquetar las características y añadirlas a una lista
+features = []
+for key, municipality_data in geojson_data_updated.items():
+    feature = municipality_data["features"]
+    # Agregar cada característica a la lista
+    features.append(feature)
 
-df_mun_x_team['attendance_pct'] = (df_mun_x_team['Asistencia_media_estadio'] / df_mun_x_team['Poblacion']) * 100
+# Crear un GeoDataFrame a partir de las características extraídas
+geo_df = gpd.GeoDataFrame.from_features(features).set_index("nameunit")
+geo_df.index = geo_df.index.str.lower()
+print(geo_df)
 
-custom_red_scale = [
-    [0, "#DF1B3F"],
-    [1, "#FF9999"]
-]
+# Unir `geo_df` con `df_para_mapa` para incluir la columna `asist_pct`
+geo_df = geo_df.join(df_para_mapa.set_index("Municipio")[["asist_pct"]])
 
-fig = px.scatter_mapbox(
-    df_mun_x_team,
-    lat='lat',
-    lon='lon',
-    size='Asistencia_media_estadio',  
-    color='attendance_pct',
-    color_continuous_scale=custom_red_scale,
-    size_max=15,   
-    hover_name='Equipo',
-    hover_data={
-        'Poblacion': True, 
-        'Asistencia_media_estadio': True, 
-        'attendance_pct': ':.2f',
-        'lat': False,  
-        'lon': False   
-    },
-    text='Municipio', 
-    zoom=5,
-    center=dict(lat=40.0, lon=-3.7),
-    title="Asistencia Media y % de la Población en Municipios de Equipos",
-    mapbox_style="carto-positron"
+# Configurar el gráfico del mapa
+map_fig = px.choropleth_mapbox(
+    geo_df,
+    geojson=geo_df.geometry,
+    locations=geo_df.index,
+    color="asist_pct",
+    center={"lat": 39.326069, "lon":  -4.837979},
+    color_continuous_scale="Viridis",
+    mapbox_style='carto-positron',
+    zoom=5.5
 )
+map_fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
-fig.update_traces(textposition="top right")
-
-fig.show()
+# Mostrar el mapa
+map_fig.show()

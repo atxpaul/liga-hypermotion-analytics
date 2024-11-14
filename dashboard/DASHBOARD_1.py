@@ -28,4 +28,3 @@ fig.update_layout(title='<b>Valor por Gol de Cada Equipo<b>',
 
 # Mostrar gráfico
 fig.show()
-
